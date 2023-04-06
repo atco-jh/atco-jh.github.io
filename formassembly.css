@@ -1,0 +1,134 @@
+h1, h2, h3, h4 {
+  font-family: 'Roboto' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 24px !important;
+  line-height: 32px !important;
+  color: #BDDEDD !important;
+}
+
+a {
+  font-family: 'Roboto' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  color: #80C0BD !important;
+}
+
+span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+label {
+  font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    color: #FFFFFF !important;
+}
+
+.wFormContainer fieldset legend {
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    color: #BDDEDD !important;
+}
+
+.wFormWebPage, .wFormContainer {
+  background-color: #00403D;
+}
+
+.wFormContainer .wForm{
+  background-color: #00403D;
+}
+
+.wFormContainer .wfTab{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 24px;
+  border: 0px solid black;
+  background: #005A56;
+  width: 32px;
+  height: 32px;
+  color: #BDDEDD;
+  box-sizing: border-box;
+
+}
+
+.wFormContainer .wfTab.wfTabCurrentPage{
+    border: 1px solid #80C0BD;
+    border-radius: 24px;
+    background: #00817B;
+    width: 32px;
+    height: 32px;
+    color:  #FFFFFF;
+}
+
+.wFormContainer .wForm .inputWrapper input[type="text"],
+.wFormContainer .wForm .inputWrapper input[type="password"],
+.wFormContainer .wForm .inputWrapper select,
+.wFormContainer .wForm .inputWrapper textarea {
+    background-color: #006E69 !important;
+    color: #FFFFFF;
+    border-radius: 4px 4px 0px 0px;
+    width: 389px;
+    height: 56px;
+    margin: 12px 0px;
+    border: none !important;
+    border-bottom: 1px solid #80C0BD !important;
+  }
+
+.wFormContainer .wForm .inputWrapper input:not([type="file"]):not(.tt-hint):read-only,
+.wFormContainer .wForm .inputWrapper textarea:read-only
+ {
+   background-color: #006E69 !important;
+   color: #FFFFFF !important;
+   border-radius: 4px 4px 0px 0px;
+   width: 389px;
+   height: 56px;
+   margin: 12px 0px;
+   border: none !important;
+   border-bottom: 1px solid #80C0BD !important;
+ }
+
+.wFormContainer .wForm .inputWrapper input[type="text"]:focus{
+  color: #FFFFFF;
+    border: 'none' !important;
+}
+
+.wFormContainer fieldset {
+  border: 1px solid #80C0BD !important;
+  border-radius: 15px;
+}
+
+.wFormContainer .wfPagingButtons .wfPageNextButton,
+.wFormContainer .wfPagingButtons .wfPagePreviousButton {
+  background: #BDDEDD;
+    border-radius: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #00403D;
+    padding: 14px 24px;
+    width: 114px;
+    height: 48px;
+}
+
+.wFormContainer .wFormFooter .supportInfo {
+  text-align: left;
+  margin-left: 1.5vw;
+}
