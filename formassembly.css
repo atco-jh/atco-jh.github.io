@@ -2,7 +2,6 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Roboto" !important;
   font-style: normal !important;
   font-weight: 500 !important;
   font-size: 24px !important;
@@ -11,7 +10,6 @@ h4 {
 }
 
 a {
-  font-family: "Roboto" !important;
   font-style: normal !important;
   font-weight: 700 !important;
   font-size: 14px !important;
@@ -29,7 +27,6 @@ span {
 }
 
 label {
-  font-family: "Roboto" !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 16px !important;
@@ -52,7 +49,6 @@ label {
 }
 
 .wFormContainer fieldset legend {
-  font-family: "Roboto" !important;
   font-style: normal !important;
   font-weight: 700 !important;
   font-size: 16px !important;
@@ -72,7 +68,6 @@ label {
 /* Page Numbers */
 
 .wFormContainer .wfTab {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -87,7 +82,6 @@ label {
 }
 
 .wFormContainer .wfTab:hover {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -260,7 +254,6 @@ select[multiple]:focus option:checked {
 .wFormContainer .actions .primaryAction:hover {
   background: #bddedd;
   border-radius: 100px;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -275,7 +268,6 @@ select[multiple]:focus option:checked {
   background: none;
   border-radius: 100px;
   border: 1px solid #80c0bd;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
