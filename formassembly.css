@@ -28,7 +28,16 @@ span {
   color: #ffffff;
 }
 
-/*Scrollbar customization for Chrome*/
+label {
+  font-family: "Roboto" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: #ffffff !important;
+}
+
+/* Scrollbar customization */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -37,21 +46,9 @@ span {
   background: none;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #339a95;
   border-radius: 200px;
-}
-
-/*Scrollbar customization for Firefox*/
-
-label {
-  font-family: "Roboto" !important;
-  font-style: normal !important;
-  font-weight: 400 !important;
-  font-size: 16px !important;
-  line-height: 22px !important;
-  color: #ffffff !important;
 }
 
 .wFormContainer fieldset legend {
@@ -72,6 +69,8 @@ label {
   background-color: #00403d;
 }
 
+/* Page Numbers */
+
 .wFormContainer .wfTab {
   font-family: "Roboto";
   font-style: normal;
@@ -87,6 +86,21 @@ label {
   box-sizing: border-box;
 }
 
+.wFormContainer .wfTab:hover {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 24px;
+  border: 0px solid black;
+  background: #00817b;
+  width: 32px;
+  height: 32px;
+  color: #bddedd;
+  box-sizing: border-box;
+}
+
 .wFormContainer .wfTab.wfTabCurrentPage {
   border: 1px solid #80c0bd;
   border-radius: 24px;
@@ -96,8 +110,56 @@ label {
   color: #ffffff;
 }
 
+/* Search Box */
+.wForm .fa-search.tt-search {
+  color: #bddedd !important;
+  width: 18px;
+  height: 18px;
+}
+
+.wFormContainer .wForm .inputWrapper:has(i) input[type="text"] {
+  padding-left: 30px;
+}
+
+/* Text Input */
 .wFormContainer .wForm .inputWrapper input[type="text"],
 .wFormContainer .wForm .inputWrapper input[type="password"] {
+  background-color: #006e69 !important;
+  color: #ffffff;
+  border-radius: 4px 4px 0px 0px;
+  width: 389px;
+  height: 56px;
+  margin: 12px 0px;
+  border: none !important;
+  border-bottom: 1px solid #80c0bd !important;
+}
+
+.wFormContainer .wForm .inputWrapper input[type="text"]:focus,
+.wFormContainer .wForm .inputWrapper input[type="password"]:focus {
+  background-color: #005a56 !important;
+  color: #ffffff;
+  border-radius: 4px 4px 0px 0px;
+  width: 389px;
+  height: 56px;
+  margin: 12px 0px;
+  border: none !important;
+  border-bottom: 2px solid #bddedd !important;
+}
+
+.wFormContainer .wForm .inputWrapper input[type="text"]:hover,
+.wFormContainer .wForm .inputWrapper input[type="password"]:hover {
+  background-color: #005a56 !important;
+  color: #ffffff;
+  border-radius: 4px 4px 0px 0px;
+  width: 389px;
+  height: 56px;
+  margin: 12px 0px;
+  border: none !important;
+  border-bottom: 1px solid #80c0bd !important;
+}
+
+.wFormContainer .wForm .inputWrapper input[type="text"]:disabled,
+.wFormContainer .wForm .inputWrapper input[type="password"]:disabled {
   background-color: #006e69 !important;
   color: #ffffff;
   border-radius: 4px 4px 0px 0px;
@@ -123,6 +185,7 @@ label {
   border-bottom: 1px solid #80c0bd !important;
 }
 
+/* Select Option */
 .wFormContainer .wForm .inputWrapper select {
   background-color: #006e69 !important;
   color: #ffffff;
@@ -131,9 +194,6 @@ label {
   height: 56px !important;
   margin: 12px 0px;
   border: none !important;
-}
-.wFormContainer .wForm .inputWrapper select:valid {
-  background-color: red;
 }
 
 .wFormContainer .wForm .inputWrapper select[multiple] {
@@ -148,7 +208,7 @@ label {
 }
 
 .wFormContainer .wForm .inputWrapper select[multiple] > option {
-  background-color: #006e69 !important;
+  background-color: #005a56 !important;
   color: #ffffff;
   max-width: 100%;
   height: 52px !important;
@@ -163,6 +223,11 @@ label {
   align-items: center;
   display: flex;
   align-items: center;
+}
+
+select[multiple]:focus option:checked {
+  background: #006e69 linear-gradient(0deg, #006e69 0%, #006e69 100%);
+  color: white !important;
 }
 
 .wFormContainer .wForm .inputWrapper textarea {
@@ -188,8 +253,11 @@ label {
   border-radius: 15px;
 }
 
+/*Page Buttons */
 .wFormContainer .wfPagingButtons .wfPageNextButton,
-.wFormContainer .wfPagingButtons .wfPagePreviousButton {
+.wFormContainer .wfPagingButtons .wfPageNextButton:hover,
+.wFormContainer .actions .primaryAction,
+.wFormContainer .actions .primaryAction:hover {
   background: #bddedd;
   border-radius: 100px;
   font-family: "Roboto";
@@ -199,7 +267,21 @@ label {
   line-height: 20px;
   color: #00403d;
   padding: 14px 24px;
-  width: 114px;
+  height: 48px;
+}
+
+.wFormContainer .wfPagingButtons .wfPagePreviousButton,
+.wFormContainer .wfPagingButtons .wfPagePreviousButton:hover {
+  background: none;
+  border-radius: 100px;
+  border: 1px solid #80c0bd;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #80c0bd;
+  padding: 14px 24px;
   height: 48px;
 }
 
