@@ -220,7 +220,7 @@ label {
 }
 
 select[multiple]:focus option:checked {
-  background: #1d6c69 linear-gradient(0deg, #1d6c69 0%, #1d6c69 100%);
+  background: #339a95 linear-gradient(0deg, #339a95 0%, #339a95 100%);
   color: white !important;
 }
 
