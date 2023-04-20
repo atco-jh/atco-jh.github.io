@@ -1,3 +1,4 @@
+/* Global */
 nav {
   background-color: #005a56;
 }
@@ -17,6 +18,7 @@ button {
   line-height: 20px;
 }
 
+/* Desktop */
 .appBar {
   background-color: #005a56 !important;
 }
@@ -55,4 +57,9 @@ button {
 #location,
 #description {
   background-color: #005a56;
+}
+
+/* Mobile phone */
+.mobile-menu {
+  justify-content: center;
 }
