@@ -6,8 +6,19 @@ input {
   background-color: #00403d;
 }
 
+button {
+  background-color: #bddedd;
+  border-radius: 100px;
+  text-transform: capitalize;
+  color: #00403d;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 .appBar {
-  background-color: #005a56;
+  background-color: #005a56 !important;
 }
 
 .appBar-header {
@@ -16,4 +27,18 @@ input {
 
 .mat-tab-links {
   background-color: #005a56;
+}
+
+.overview {
+  background-color: #005a56;
+}
+
+.bt-date-badge__month[_ngcontent-sfa-c173] {
+  background-color: #00817b;
+  color: #ffffff;
+}
+
+.bt-date-badge__day[_ngcontent-sfa-c173] {
+  background-color: #eff1f0;
+  color: "black";
 }
