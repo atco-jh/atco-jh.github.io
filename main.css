@@ -29,6 +29,14 @@ button {
   background-color: #005a56;
 }
 
+.content {
+  color: #bddedd;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .overview {
   background-color: #005a56;
 }
@@ -41,4 +49,10 @@ button {
 .bt-date-badge__day[_ngcontent-sfa-c173] {
   background-color: #eff1f0;
   color: "black";
+}
+
+#date-and-time,
+#location,
+#description {
+  background-color: #005a56;
 }
