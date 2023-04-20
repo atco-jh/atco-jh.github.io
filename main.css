@@ -18,6 +18,16 @@ input {
   line-height: 20px;
 }
 
+.get-tickets-button[_ngcontent-gxd-c191]:not([disabled]) {
+  background-color: #bddedd;
+  border-radius: 100px;
+  text-transform: capitalize !important;
+  color: #00403d !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
 /* Desktop */
 .appBar,
 .appBar-header,
