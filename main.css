@@ -5,6 +5,7 @@ nav {
 
 input {
   background-color: #00403d !important;
+  border-radius: 28px !important;
 }
 
 .button[_ngcontent-wdq-c191] {
@@ -54,9 +55,7 @@ input {
   color: "black";
 }
 
-#date-and-time,
-#location,
-#description {
+.bt-card {
   background-color: #005a56 !important;
 }
 
