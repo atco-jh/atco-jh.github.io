@@ -8,6 +8,19 @@ input {
   border-radius: 28px !important;
 }
 
+/* Desktop */
+.appbar,
+.appBar-header,
+.mat-tab-links,
+.nav-container,
+.overview {
+  background-color: #005a56 !important;
+}
+
+.language-selector-button {
+  background-color: #006e69 !important;
+}
+
 .button {
   background-color: #bddedd !important;
   border-radius: 100px !important;
@@ -19,12 +32,17 @@ input {
   line-height: 20px;
 }
 
-/* Desktop */
-.appBar,
-.appBar-header,
-.mat-tab-links,
-.overview {
-  background-color: #005a56 !important;
+.action-button.get-tickets-button {
+  background-color: #bddedd !important;
+  border-radius: 100px !important;
+  text-transform: capitalize !important;
+  color: #00403d !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  width: 101px;
+  height: 48px;
 }
 
 .content {
@@ -45,11 +63,31 @@ input {
   color: #000000 !important;
 }
 
+.bt-card-header {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+}
 .bt-card {
   background-color: #005a56 !important;
 }
 
 /* Mobile phone */
+
+.mobile-registration-button {
+  background-color: #bddedd !important;
+  border-radius: 100px !important;
+  height: 48px;
+  text-transform: capitalize !important;
+  color: #00403d !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 .mobile-menu {
   justify-content: center;
 }
