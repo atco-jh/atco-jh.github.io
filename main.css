@@ -35,7 +35,7 @@ input {
 }
 
 .bt-date-badge__month[_ngcontent-sfa-c173] {
-  background-color: #00817b;
+  background-color: #00817b !important;
   color: #ffffff;
 }
 
@@ -47,7 +47,7 @@ input {
 #date-and-time,
 #location,
 #description {
-  background-color: #005a56;
+  background-color: #005a56 !important;
 }
 
 /* Mobile phone */
