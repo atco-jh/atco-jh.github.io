@@ -1,3 +1,19 @@
+nav {
+  background-color: #005a56;
+}
+
+input {
+  background-color: #00403d;
+}
+
 .appBar {
-	background-color: #005A56
+  background-color: #005a56;
+}
+
+.appBar-header {
+  background-color: #005a56;
+}
+
+.mat-tab-links {
+  background-color: #005a56;
 }
