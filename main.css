@@ -8,9 +8,9 @@ input {
   border-radius: 28px !important;
 }
 
-.button[_ngcontent-wdq-c191] {
-  background-color: #bddedd;
-  border-radius: 100px;
+.button {
+  background-color: #bddedd !important;
+  border-radius: 100px !important;
   text-transform: capitalize !important;
   color: #00403d !important;
   font-style: normal;
@@ -19,16 +19,6 @@ input {
   line-height: 20px;
 }
 
-.get-tickets-button[_ngcontent-gxd-c191]:not([disabled]) {
-  background-color: #bddedd;
-  border-radius: 100px;
-  text-transform: capitalize !important;
-  color: #00403d !important;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-}
 /* Desktop */
 .appBar,
 .appBar-header,
@@ -45,14 +35,14 @@ input {
   line-height: 32px;
 }
 
-.bt-date-badge__month[_ngcontent-sfa-c173] {
+.bt-date-badge__month {
   background-color: #00817b !important;
   color: #ffffff;
 }
 
-.bt-date-badge__day[_ngcontent-sfa-c173] {
-  background-color: #eff1f0;
-  color: "black";
+.bt-date-badge__day {
+  background-color: #eff1f0 !important;
+  color: #000000 !important;
 }
 
 .bt-card {
