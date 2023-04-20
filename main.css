@@ -7,7 +7,7 @@ input {
   background-color: #00403d !important;
 }
 
-button {
+.button[_ngcontent-wdq-c191] {
   background-color: #bddedd;
   border-radius: 100px;
   text-transform: capitalize !important;
