@@ -19,16 +19,11 @@ input {
 }
 
 /* Desktop */
-.appBar {
+.appBar,
+.appBar-header,
+.mat-tab-links,
+.overview {
   background-color: #005a56 !important;
-}
-
-.appBar-header {
-  background-color: #005a56;
-}
-
-.mat-tab-links {
-  background-color: #005a56;
 }
 
 .content {
@@ -37,10 +32,6 @@ input {
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
-}
-
-.overview {
-  background-color: #005a56;
 }
 
 .bt-date-badge__month[_ngcontent-sfa-c173] {
