@@ -1,17 +1,17 @@
 /* Global */
 nav {
-  background-color: #005a56;
+  background-color: #005a56 !important;
 }
 
 input {
-  background-color: #00403d;
+  background-color: #00403d !important;
 }
 
 button {
   background-color: #bddedd;
   border-radius: 100px;
-  text-transform: capitalize;
-  color: #00403d;
+  text-transform: capitalize !important;
+  color: #00403d !important;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
