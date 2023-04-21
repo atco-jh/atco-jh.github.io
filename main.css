@@ -343,6 +343,37 @@ i.search-icon {
   letter-spacing: 0.1px !important;
 }
 
+.expand-link,
+.collapse-link {
+  color: #bddedd !important;
+  text-transform: lowercase;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.1px !important;
+}
+
+.expand-link:first-line,
+.collapse-link:first-line {
+  text-transform: capitalize;
+}
+
+.order-summary-card .collapse-arrow,
+.order-summary-card .expand-arrow {
+  color: #bddedd !important;
+}
+.session-list-container {
+  background-color: #005a56 !important;
+  border: none !important;
+}
+.session-list-container .session-title {
+  color: #ffffff;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  letter-spacing: 0.1px !important;
+}
+
 /* -- Mobile -- */
 /* Landing Pages */
 .mobile-registration-action-container {
