@@ -436,3 +436,15 @@ i.search-icon {
 .bottom-nav span {
   color: #5c5f5e !important;
 }
+
+.order-summary-sticky {
+  background-color: #ffffff !important;
+}
+
+.order-summary-sticky .cart-icon {
+  color: #2e3130 !important;
+}
+
+.mat-badge-small.mat-badge-overlap.mat-badge-after .mat-badge-content {
+  background-color: #00817b;
+}
