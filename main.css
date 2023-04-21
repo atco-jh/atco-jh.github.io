@@ -7,6 +7,8 @@ input {
   background-color: #00403d !important;
   border-radius: 28px !important;
   height: 56px !important;
+  width: 326px !important;
+  margin-right: 16px !important;
 }
 
 /* Desktop */
@@ -20,6 +22,7 @@ section {
 .nav-container,
 .overview {
   background-color: #005a56 !important;
+  box-shadow: none !important;
 }
 
 .appbar-header {
@@ -190,6 +193,10 @@ i.search-icon {
 
 /* Mobile phone */
 
+.mobile-registration-action-container {
+  background-color: #005a56 !important;
+}
+
 .mobile-registration-button {
   background-color: #bddedd !important;
   border-radius: 100px !important;
@@ -204,4 +211,10 @@ i.search-icon {
 
 .mobile-menu {
   justify-content: center;
+  background-color: #f2f9f8 !important;
+}
+
+.bottom-nav .mobile-menu__item i,
+.bottom-nav span {
+  color: #5c5f5e !important;
 }
