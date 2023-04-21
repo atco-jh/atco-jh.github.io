@@ -233,6 +233,13 @@ i.search-icon {
 }
 
 /* Registration Pages */
+.mat-expansion-panel {
+  background-color: #005a56 !important;
+}
+
+.mat-expansion-panel-header:hover {
+  background-color: #005a56 !important;
+}
 
 .mat-form-field-appearance-fill .mat-form-field-flex,
 .mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple),
@@ -274,6 +281,51 @@ i.search-icon {
   letter-spacing: 1.2px !important;
 }
 
+.edit-link {
+  text-transform: lowercase !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.1px !important;
+  color: #bddedd !important;
+}
+
+.edit-link:first-letter {
+  text-transform: uppercase !important;
+}
+
+.date-title {
+  background-color: #00817b;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 10px;
+  color: #ffffff !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  letter-spacing: 0.15px !important;
+}
+
+.event-ticket-wrapper .mat-stroked-button:not([disabled]).mat-primary {
+  background-color: #bddedd !important;
+  border: none;
+  border-radius: 100px;
+  width: 112px;
+  height: 48px;
+  font-weight: 700;
+  color: #00403d;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+.filter-content .mat-form-field-appearance-fill .mat-form-field-flex {
+  padding: none !important;
+}
+
 /* -- Mobile -- */
 /* Landing Pages */
 .mobile-registration-action-container {
@@ -300,8 +352,4 @@ i.search-icon {
 .bottom-nav .mobile-menu__item i,
 .bottom-nav span {
   color: #5c5f5e !important;
-}
-
-.mat-expansion-panel {
-  background-color: #005a56 !important;
 }
