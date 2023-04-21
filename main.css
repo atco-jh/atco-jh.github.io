@@ -362,16 +362,24 @@ i.search-icon {
 .order-summary-card .expand-arrow {
   color: #bddedd !important;
 }
+
 .session-list-container {
   background-color: #005a56 !important;
   border: none !important;
 }
+
 .session-list-container .session-title {
   color: #ffffff;
   font-weight: 700 !important;
   font-size: 12px !important;
   line-height: 18px !important;
   letter-spacing: 0.1px !important;
+  margin-left: 1.3rem !important;
+}
+
+.order-summary-card .clear-icon-button .mat-icon {
+  color: #bddedd !important;
+  line-height: 17px !important;
 }
 
 /* -- Mobile -- */
