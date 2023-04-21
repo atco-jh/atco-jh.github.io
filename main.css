@@ -1,4 +1,9 @@
 /* -- Global -- */
+
+:root {
+  --errorColor: #ff9a9a !important;
+}
+
 body {
   background-color: #002725;
 }
