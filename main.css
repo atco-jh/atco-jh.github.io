@@ -402,6 +402,10 @@ i.search-icon {
   margin-left: 1.3rem !important;
 }
 
+.session-list-container .session-row {
+  margin: 0.5rem 0 !important;
+}
+
 .order-summary-card .clear-icon-button .mat-icon {
   color: #bddedd !important;
   line-height: 17px !important;
