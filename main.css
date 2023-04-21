@@ -122,13 +122,15 @@ i.search-icon {
 }
 
 .bt-card-header {
+  color: #e5f2f2 !important;
   text-transform: uppercase;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 19px;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  letter-spacing: 1.2px !important;
   border-bottom: 1px solid #4ca7a3 !important;
 }
+
 .bt-card {
   background-color: #005a56 !important;
 }
