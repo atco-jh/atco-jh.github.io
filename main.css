@@ -24,10 +24,6 @@ section {
   position: relative !important;
 }
 
-.container {
-  background-color: #005a56 !important;
-}
-
 .mat-tab-links,
 .nav-container,
 .overview {
