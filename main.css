@@ -277,17 +277,17 @@ i.search-icon {
 }
 
 .ticket-count-wrapper .status-text:not(:empty) {
-  color: #ff8b8b;
-  text-transform: capitalize;
-  border: 1px solid #ff8b8b;
-  border-radius: 8px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 0.1px;
-  padding: 6px 8px;
+  color: #ff8b8b !important;
+  text-transform: capitalize !important;
+  border: 1px solid #ff8b8b !important;
+  border-radius: 8px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  text-align: center !important;
+  letter-spacing: 0.1px !important;
+  padding: 6px 8px !important;
 }
 
 .ticket-count-wrapper .ticket-price {
