@@ -67,6 +67,7 @@ i.search-icon {
   line-height: 20px;
 }
 
+.action-button,
 .action-button.get-tickets-button {
   background-color: #bddedd !important;
   border-radius: 100px !important;
@@ -246,11 +247,21 @@ i.search-icon {
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.1px;
+  padding: 6px 8px;
 }
+
+.card-wrapper .card-header,
+.order-summary-card .card-header {
+  color: #e5f2f2 !important;
+  border-bottom: 1px solid #4ca7a3 !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  letter-spacing: 1.2px !important;
+}
+
 /* -- Mobile -- */
 /* Landing Pages */
 .mobile-registration-action-container {
