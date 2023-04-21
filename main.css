@@ -138,6 +138,10 @@ i.search-icon {
   color: #e5f2f2 !important;
 }
 
+.mat-raised-button .mat-button-wrapper > * {
+  text-transform: capitalize !important;
+}
+
 .mat-tab-link {
   text-transform: capitalize !important;
   font-style: normal;
@@ -197,6 +201,22 @@ i.search-icon {
   font-weight: 700 !important;
   font-size: 14px !important;
   letter-spacing: 0.1px;
+}
+
+.welcome {
+  background-color: #bddedd !important;
+  color: #00403d !important;
+}
+
+.welcome .actions button {
+  border-radius: 100px;
+  color: #00817b !important;
+  border: 1px solid #00817b !important;
+  text-transform: lowercase;
+}
+
+.welcome .actions button:first-line {
+  text-transform: capitalize;
 }
 
 /* Mobile phone */
