@@ -418,7 +418,7 @@ i.search-icon {
   background-color: #80c0bd;
 }
 
-.mat-step-header .mat-step-label.mat-step-label-active {
+.mat-step-header .mat-step-label {
   color: #b2b2b2;
   font-weight: 400;
   font-size: 14px;
