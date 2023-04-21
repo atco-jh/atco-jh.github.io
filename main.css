@@ -78,7 +78,13 @@ i.search-icon {
 
 .bt-date-badge__month {
   background-color: #00817b !important;
-  color: #ffffff;
+  color: #ffffff !important;
+  text-transform: lowercase;
+}
+
+.bt-date-badge__month:first-letter,
+.bt-date-badge__month:first-line {
+  text-transform: uppercase;
 }
 
 .bt-date-badge__day {
