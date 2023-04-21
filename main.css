@@ -178,6 +178,16 @@ i.search-icon {
   color: #ffffff !important;
 }
 
+.action-button {
+  background-color: #bddedd;
+  color: #00403d !important;
+  text-transform: capitalize !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  letter-spacing: 0.1px;
+}
+
 /* Mobile phone */
 
 .mobile-registration-button {
