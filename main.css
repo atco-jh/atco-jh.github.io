@@ -6,18 +6,41 @@ nav {
 input {
   background-color: #00403d !important;
   border-radius: 28px !important;
+  height: 56px !important;
 }
 
 /* Desktop */
 .appbar,
-.appBar-header,
 .mat-tab-links,
 .nav-container,
 .overview {
   background-color: #005a56 !important;
 }
 
+.appbar-header {
+  height: 4.5rem !important;
+}
+
 .language-selector-button {
+  background-color: #006e69 !important;
+  border-radius: 4px 4px 0px 0px;
+  border-bottom: 1px solid #80c0bd !important;
+  height: 56px;
+}
+
+i.search-icon {
+  color: #80c0bd !important;
+  top: 1rem !important;
+  left: 1rem !important;
+  width: 18px;
+  height: 18px;
+}
+
+.mat-menu-item {
+  background-color: #006e69 !important;
+}
+
+.mat-menu-panel {
   background-color: #006e69 !important;
 }
 
@@ -46,11 +69,11 @@ input {
 }
 
 .content {
-  color: #bddedd;
+  color: #ffffff;
   font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .bt-date-badge__month {
