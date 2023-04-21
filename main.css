@@ -135,7 +135,8 @@ i.search-icon {
   background-color: #005a56 !important;
 }
 
-.featured-session-header {
+.featured-session-header,
+.main .bt-card-header {
   background-color: #005a56 !important;
   color: #e5f2f2 !important;
   font-style: normal !important;
