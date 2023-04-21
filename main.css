@@ -127,6 +127,7 @@ i.search-icon {
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
+  border-bottom: 1px solid #4ca7a3 !important;
 }
 .bt-card {
   background-color: #005a56 !important;
