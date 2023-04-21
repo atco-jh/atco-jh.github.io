@@ -94,7 +94,11 @@ i.search-icon {
 
 .bt-date-badge__month {
   background-color: #00817b !important;
-  color: #ffffff;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  letter-spacing: 0.1px !important;
 }
 
 .bt-date-badge__month:first-letter,
