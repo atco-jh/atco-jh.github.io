@@ -1,4 +1,4 @@
-/* Global */
+/* -- Global -- */
 body {
   background-color: #002725;
 }
@@ -15,12 +15,12 @@ input {
   margin-right: 16px !important;
 }
 
-/* Desktop */
-
 section {
   border-radius: 0 !important;
 }
 
+/* -- Desktop -- */
+/* Landing Pages */
 .appbar,
 .mat-tab-links,
 .nav-container,
@@ -223,8 +223,10 @@ i.search-icon {
   text-transform: capitalize;
 }
 
-/* Mobile phone */
+/* Registration Pages */
 
+/* -- Mobile -- */
+/* Landing Pages */
 .mobile-registration-action-container {
   background-color: #005a56 !important;
 }
