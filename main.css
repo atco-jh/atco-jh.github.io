@@ -424,6 +424,9 @@ i.search-icon {
   letter-spacing: 0.3px !important;
 }
 
+.mat-stepper-horizontal-line {
+  background-color: #339a95 !important;
+}
 /* Complete Page */
 
 /* -- Mobile -- */
@@ -464,4 +467,16 @@ i.search-icon {
 
 .mat-badge-small.mat-badge-overlap.mat-badge-after .mat-badge-content {
   background-color: #00817b;
+}
+
+@media screen and (max-width: 37.4375rem) {
+  .order-summary-card.show-summary .bt-card {
+    background-color: #002725 !important;
+  }
+}
+
+@media screen and (max-width: 37.4375rem) {
+  .order-summary-card .card-header {
+    background-color: #00817b !important;
+  }
 }
