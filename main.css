@@ -13,7 +13,12 @@ section {
 
 /* -- Desktop -- */
 /* Landing Pages */
-.appbar,
+.appbar {
+  background-color: #005a56 !important;
+  box-shadow: none !important;
+  position: relative !important;
+}
+
 .mat-tab-links,
 .nav-container,
 .overview {
@@ -228,6 +233,10 @@ i.search-icon {
 .mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple),
 .mat-select-panel mat-option.mat-option {
   background-color: #006e69;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  padding: 0 0.75em 0 0.75em !important;
 }
 
 .mat-select-panel mat-option.mat-option:hover,
