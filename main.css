@@ -225,6 +225,32 @@ i.search-icon {
 
 /* Registration Pages */
 
+.mat-form-field-appearance-fill .mat-form-field-flex,
+.mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple),
+.mat-select-panel mat-option.mat-option {
+  background-color: #006e69;
+}
+
+.mat-select-panel mat-option.mat-option:hover,
+.mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple):hover {
+  background-color: #339a95;
+}
+
+.ticket-count-wrapper[_ngcontent-ulj-c213]
+  .status-text[_ngcontent-ulj-c213]:not(:empty) {
+  color: #ff8b8b;
+  text-transform: capitalize;
+  border: 1px solid #ff8b8b;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1px;
+}
 /* -- Mobile -- */
 /* Landing Pages */
 .mobile-registration-action-container {
