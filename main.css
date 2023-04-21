@@ -428,7 +428,9 @@ i.search-icon {
   letter-spacing: 0.3px !important;
 }
 
-.mat-stepper-horizontal-line {
+.mat-stepper-horizontal-line,
+.mat-horizontal-stepper-header:before,
+.mat-horizontal-stepper-header:after {
   background-color: #339a95 !important;
 }
 /* Complete Page */
