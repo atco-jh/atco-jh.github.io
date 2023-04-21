@@ -7,13 +7,6 @@ nav {
   background-color: #005a56 !important;
 }
 
-input {
-  background-color: #00403d !important;
-  border-radius: 28px !important;
-  height: 56px !important;
-  margin-right: 16px !important;
-}
-
 section {
   border-radius: 0 !important;
 }
@@ -37,6 +30,12 @@ section {
   border-radius: 4px 4px 0px 0px;
   border-bottom: 1px solid #80c0bd !important;
   height: 56px;
+}
+
+.search .search-wrapper .search-field {
+  background-color: #00403d !important;
+  border-radius: 28px !important;
+  margin-right: 16px !important;
 }
 
 i.search-icon {
@@ -287,4 +286,8 @@ i.search-icon {
 .bottom-nav .mobile-menu__item i,
 .bottom-nav span {
   color: #5c5f5e !important;
+}
+
+.mat-expansion-panel {
+  background-color: #005a56 !important;
 }
