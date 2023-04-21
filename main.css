@@ -1,4 +1,8 @@
 /* Global */
+body {
+  background-color: #002725;
+}
+
 nav {
   background-color: #005a56 !important;
 }
@@ -82,6 +86,10 @@ i.search-icon {
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
+}
+
+.bt-date-badge {
+  box-shadow: none !important;
 }
 
 .bt-date-badge__month {
