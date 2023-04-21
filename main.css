@@ -46,6 +46,7 @@ section {
   background-color: #00403d !important;
   border-radius: 28px !important;
   margin-right: 16px !important;
+  height: 56px !important;
 }
 
 i.search-icon {
