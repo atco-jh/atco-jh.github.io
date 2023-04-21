@@ -83,7 +83,6 @@ i.search-icon {
 .action-button,
 .action-button.get-tickets-button {
   background-color: #bddedd !important;
-  border: none !important;
   border-radius: 100px !important;
   text-transform: capitalize !important;
   color: #00403d !important;
