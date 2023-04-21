@@ -24,6 +24,10 @@ section {
   position: relative !important;
 }
 
+.container {
+  background-color: #005a56 !important;
+}
+
 .mat-tab-links,
 .nav-container,
 .overview {
@@ -381,6 +385,8 @@ i.search-icon {
   color: #bddedd !important;
   line-height: 17px !important;
 }
+
+/* Complete Page */
 
 /* -- Mobile -- */
 /* Landing Pages */
