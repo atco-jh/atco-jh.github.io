@@ -412,6 +412,12 @@ i.search-icon {
   line-height: 17px !important;
 }
 
+.mat-stepper-label-position-bottom
+  .mat-horizontal-stepper-header
+  .mat-step-icon {
+  background-color: #80c0bd;
+}
+
 .mat-step-header .mat-step-label.mat-step-label-active {
   color: #b2b2b2;
   font-weight: 400;
