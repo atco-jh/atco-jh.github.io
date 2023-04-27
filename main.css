@@ -105,6 +105,10 @@ i.search-icon {
   line-height: 22px;
 }
 
+.container {
+  background-color: #005a56 !important;
+}
+
 .bt-date-badge {
   box-shadow: none !important;
 }
@@ -484,6 +488,45 @@ i.search-icon {
 }
 
 /* Complete Page */
+.status-card-body h1 {
+  color: #e5f2f2 !important;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.25px;
+}
+
+.status-card-body .instruction {
+  color: #bddedd !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.1px;
+}
+
+.status-card-body .actions .mat-stroked-button:not([class*="mat-elevation-z"]) {
+  width: 172px;
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-radius: 4px !important;
+  border: 1px solid #80c0bd;
+}
+
+.actions .done-btn {
+  background-color: #00817b !important;
+  border: none !important;
+  color: #ffffff !important;
+  text-transform: lowercase;
+  width: 320px !important;
+}
+
+.actions .done-btn:first-line {
+  text-transform: capitalize;
+}
+
+/* Thank you pages */
 
 /* -- Mobile -- */
 /* Landing Pages */
@@ -540,5 +583,11 @@ i.search-icon {
 @media screen and (max-width: 59.9375rem) {
   .filter-content.fields-2 .quarter-width {
     width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 59.9375rem) {
+  .actions .done-btn {
+    width: 150% !important;
   }
 }
