@@ -105,10 +105,6 @@ i.search-icon {
   line-height: 22px;
 }
 
-.container {
-  background-color: #005a56 !important;
-}
-
 .bt-date-badge {
   box-shadow: none !important;
 }
@@ -526,7 +522,14 @@ i.search-icon {
   text-transform: capitalize;
 }
 
-/* Thank you pages */
+/* Post Registration pages */
+.container {
+  background-color: #005a56 !important;
+}
+
+.sessions-container .sub-title {
+  border-top: 1px solid #4ca7a3 !important;
+}
 
 /* -- Mobile -- */
 /* Landing Pages */
