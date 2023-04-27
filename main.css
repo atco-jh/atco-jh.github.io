@@ -553,6 +553,8 @@ i.search-icon {
 }
 
 .container .actions .mat-stroked-button:not([class*="mat-elevation-z"]) {
+  background-color: #00817b !important;
+  color: #ffffff !important;
   text-transform: lowercase !important;
 }
 
@@ -562,6 +564,21 @@ i.search-icon {
   text-transform: capitalize !important;
 }
 
+.product-item__detailText h1 {
+  color: #bddedd !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 26px !important;
+}
+
+.product-item__whenAndWhere {
+  display: flex !important;
+  color: #bddedd !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  letter-spacing: 0.1px !important;
+}
 .product-item__name {
   color: #ffffff !important;
   font-weight: 400 !important;
