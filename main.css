@@ -471,6 +471,16 @@ i.search-icon {
   color: #ffffff !important;
 }
 
+.session-title mat-chip {
+  background-color: #006e69 !important;
+  color: #bddedd !important;
+  border: 1px solid #bddedd !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  letter-spacing: 0.1px !important;
+}
+
 .mat-select-arrow {
   color: #ffffff !important;
 }
