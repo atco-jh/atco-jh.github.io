@@ -17,7 +17,9 @@ section {
 }
 
 b,
-strong {
+strong,
+h1,
+i {
   color: #ffffff !important;
 }
 
@@ -464,7 +466,12 @@ i.search-icon {
 .attendee-title,
 .attendee-title .ticket-title,
 .ticket-row .ticket-title,
-.session-summary .session-count-text {
+.session-summary .session-count-text,
+.mat-select-value-text {
+  color: #ffffff !important;
+}
+
+.mat-select-arrow {
   color: #ffffff !important;
 }
 /* Complete Page */
