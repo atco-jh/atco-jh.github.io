@@ -474,6 +474,15 @@ i.search-icon {
 .mat-select-arrow {
   color: #ffffff !important;
 }
+
+.mat-form-field-label {
+  color: #ffffff;
+}
+
+.mat-form-field-label .mat-placeholder-required {
+  color: red !important;
+}
+
 /* Complete Page */
 
 /* -- Mobile -- */
