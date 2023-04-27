@@ -16,6 +16,11 @@ section {
   border-radius: 0 !important;
 }
 
+b,
+strong {
+  color: #ffffff !important;
+}
+
 /* -- Desktop -- */
 /* Landing Pages */
 .appbar {
@@ -91,7 +96,7 @@ i.search-icon {
 }
 
 .content {
-  color: #ffffff;
+  color: #ffffff !important;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -440,6 +445,18 @@ i.search-icon {
 .mat-horizontal-stepper-header:after {
   background-color: #339a95 !important;
 }
+
+.event-details .session-time {
+  color: #bddedd !important;
+}
+
+.session-title,
+.attendee-title,
+.attendee-title .ticket-title,
+.ticket-row .ticket-title,
+.session-summary .session-count-text {
+  color: #ffffff !important;
+}
 /* Complete Page */
 
 /* -- Mobile -- */
@@ -491,5 +508,11 @@ i.search-icon {
 @media screen and (max-width: 37.4375rem) {
   .order-summary-card .card-header {
     background-color: #00817b !important;
+  }
+}
+
+@media screen and (max-width: 59.9375rem) {
+  .filter-content.fields-2 .quarter-width {
+    width: 100% !important;
   }
 }
