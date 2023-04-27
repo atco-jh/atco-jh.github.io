@@ -266,6 +266,10 @@ i.search-icon {
   background-color: #339a95;
 }
 
+.mat-select-placeholder {
+  color: #ffffff !important;
+}
+
 .ticket-count-wrapper .redeem-button {
   border-radius: 100px;
   border: 1px solid #80c0bd;
@@ -438,6 +442,12 @@ i.search-icon {
   font-size: 14px !important;
   line-height: 22px !important;
   letter-spacing: 0.3px !important;
+}
+
+.mat-stepper-label-position-bottom
+  .mat-horizontal-stepper-header
+  .mat-step-label {
+  color: #a9acab;
 }
 
 .mat-stepper-horizontal-line,
