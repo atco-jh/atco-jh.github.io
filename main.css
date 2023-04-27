@@ -527,9 +527,32 @@ i.search-icon {
   background-color: #005a56 !important;
 }
 
-.sessions-container .sub-title {
-  border-top: 1px solid #4ca7a3 !important;
+.sessions-container .title {
+  color: #e5f2f2 !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  letter-spacing: 1.2px !important;
+  text-transform: uppercase !important;
+  margin: 0 !important;
+  width: auto !important;
 }
+
+.sessions-container .sub-title {
+  border-top: none !important;
+  background-color: #00817b !important;
+  color: #ffffff !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  letter-spacing: 0.15px !important;
+  text-align: left !important;
+  padding: 12px 0px 12px 12px !important;
+  margin-right: 0 !important;
+}
+
+/* Errors/Alerts */
 
 /* -- Mobile -- */
 /* Landing Pages */
