@@ -520,6 +520,10 @@ i.search-icon {
   border: 1px solid #80c0bd;
 }
 
+.status-card-body .success-image {
+  display: none;
+}
+
 .actions .done-btn {
   background-color: #00817b !important;
   border: none !important;
