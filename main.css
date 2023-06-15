@@ -462,6 +462,14 @@ i.search-icon {
   color: #bddedd !important;
 }
 
+.event-name .content {
+  text-align: center;
+}
+
+bt-order-summary {
+  position: fixed;
+}
+
 .session-title,
 .attendee-title,
 .attendee-title .ticket-title,
