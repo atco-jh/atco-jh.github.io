@@ -2,11 +2,26 @@
 
 :root {
   --backgroundOverview: #002725;
+  --backgroundGreen: #00817b;
+  --inputGreen: #00403d;
   --mainWhite: #ffffff;
+  --mainGrey: #eff1f0;
+  --mainBlack: #000000;
   --mainGreen: #005a56;
+  --secondaryGrey: #e5f2f2;
   --secondaryGreen: #006e69;
+  --tertiaryGreen: #80c0bd;
   --lightGreen: #bddedd;
+  --stepLabel: #b2b2b2;
+  --stepperGrey: #a9acab;
+  --headerGreen: #4ca7a3;
   --errorColor: #ff9a9a !important;
+  --starRed: #ff8b8b;
+  --stepperGreen: #339a95;
+  --cartIcon: #2e3130;
+  --mobileMenuNav: #5c5f5e;
+  --mobileMenuWhite: #f2f9f8;
+  --alertColor: #333333;
 }
 
 body {
@@ -25,7 +40,7 @@ b,
 strong,
 h1,
 i {
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
 }
 
 /* -- Desktop -- */
@@ -36,7 +51,7 @@ bt-event-attendeelink-main div .main.content-container {
 }
 
 .appbar {
-  background-color: #005a56 !important;
+  background-color: var(--mainGreen) !important;
   box-shadow: none !important;
   position: relative !important;
 }
@@ -44,7 +59,7 @@ bt-event-attendeelink-main div .main.content-container {
 .mat-tab-links,
 .nav-container,
 .overview {
-  background-color: #005a56 !important;
+  background-color: var(--mainGreen) !important;
   box-shadow: none !important;
 }
 
@@ -53,21 +68,21 @@ bt-event-attendeelink-main div .main.content-container {
 }
 
 .language-selector-button {
-  background-color: #006e69 !important;
+  background-color: var(--secondaryGreen) !important;
   border-radius: 4px 4px 0px 0px;
-  border-bottom: 1px solid #80c0bd !important;
+  border-bottom: 1px solid var(--tertiaryGreen) !important;
   height: 56px;
 }
 
 .search .search-wrapper .search-field {
-  background-color: #00403d !important;
+  background-color: var(--inputGreen) !important;
   border-radius: 28px !important;
   margin-right: 16px !important;
   height: 56px !important;
 }
 
 i.search-icon {
-  color: #80c0bd !important;
+  color: var(--tertiaryGreen) !important;
   top: 0.4rem !important;
   left: 0.5rem !important;
   width: 18px;
@@ -75,18 +90,18 @@ i.search-icon {
 }
 
 .mat-menu-item {
-  background-color: #006e69 !important;
+  background-color: var(--secondaryGreen) !important;
 }
 
 .mat-menu-panel {
-  background-color: #006e69 !important;
+  background-color: var(--secondaryGreen) !important;
 }
 
 .button {
-  background-color: #bddedd !important;
+  background-color: var(--lightGreen) !important;
   border-radius: 100px !important;
   text-transform: capitalize !important;
-  color: #00403d !important;
+  color: var(--inputGreen) !important;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -95,10 +110,10 @@ i.search-icon {
 
 .action-button,
 .action-button.get-tickets-button {
-  background-color: #bddedd !important;
+  background-color: var(--lightGreen) !important;
   border-radius: 100px !important;
   text-transform: capitalize !important;
-  color: #00403d !important;
+  color: var(--inputGreen) !important;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -108,7 +123,7 @@ i.search-icon {
 }
 
 .content {
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -120,8 +135,8 @@ i.search-icon {
 }
 
 .bt-date-badge__month {
-  background-color: #00817b !important;
-  color: #ffffff !important;
+  background-color: var(--backgroundGreen) !important;
+  color: var(--mainWhite) !important;
   font-weight: 700 !important;
   font-size: 12px !important;
   line-height: 18px !important;
@@ -134,43 +149,43 @@ i.search-icon {
 }
 
 .bt-date-badge__day {
-  background-color: #eff1f0 !important;
-  color: #000000 !important;
+  background-color: var(--mainGrey) !important;
+  color: var(--mainBlack) !important;
 }
 
 .bt-card-header {
-  color: #e5f2f2 !important;
+  color: var(--secondaryGrey) !important;
   text-transform: uppercase;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 19px !important;
   letter-spacing: 1.2px !important;
-  border-bottom: 1px solid #4ca7a3 !important;
+  border-bottom: 1px solid var(--headerGreen) !important;
 }
 
 .bt-card {
-  background-color: #005a56 !important;
+  background-color: var(--mainGreen) !important;
 }
 
 .featured-session-header,
 .main .bt-card-header {
-  background-color: #005a56 !important;
-  color: #e5f2f2 !important;
+  background-color: var(--mainGreen) !important;
+  color: var(--secondaryGrey) !important;
   font-style: normal !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 19px !important;
   letter-spacing: 1.2px !important;
   text-transform: uppercase;
-  border-bottom: 1px solid #4ca7a3;
+  border-bottom: 1px solid var(--headerGreen);
 }
 
 .featured-session-container.active {
-  background-color: #005a56 !important;
+  background-color: var(--mainGreen) !important;
 }
 
 .featured-session-name {
-  color: #e5f2f2 !important;
+  color: var(--secondaryGrey) !important;
 }
 
 .mat-raised-button .mat-button-wrapper > * {
@@ -182,18 +197,18 @@ i.search-icon {
   font-style: normal;
   font-size: 16px;
   line-height: 22px;
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
   font-weight: 400 !important;
 }
 
 .mat-tab-label-active {
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
   font-weight: 700 !important;
 }
 
 .time-block-header {
-  background-color: #00817b !important;
-  color: #ffffff !important;
+  background-color: var(--backgroundGreen) !important;
+  color: var(--mainWhite) !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 14px !important;
@@ -203,11 +218,11 @@ i.search-icon {
 }
 
 .session-item-container {
-  background-color: #005a56 !important;
+  background-color: var(--mainGreen) !important;
 }
 
 .session-info .session-name {
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 16px !important;
@@ -216,7 +231,7 @@ i.search-icon {
 }
 
 .session-info .session-date-time {
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 14px !important;
@@ -225,12 +240,12 @@ i.search-icon {
 }
 
 .session-info .session-date-time .material-icons {
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
 }
 
 .action-button {
-  background-color: #bddedd;
-  color: #00403d !important;
+  background-color: var(--lightGreen);
+  color: var(--inputGreen) !important;
   text-transform: capitalize !important;
   font-style: normal;
   font-weight: 700 !important;
@@ -239,14 +254,14 @@ i.search-icon {
 }
 
 .welcome {
-  background-color: #bddedd !important;
-  color: #00403d !important;
+  background-color: var(--lightGreen) !important;
+  color: var(--inputGreen) !important;
 }
 
 .welcome .actions button {
   border-radius: 100px;
-  color: #00817b !important;
-  border: 1px solid #00817b !important;
+  color: var(--backgroundGreen) !important;
+  border: 1px solid var(--backgroundGreen) !important;
   text-transform: lowercase;
 }
 
@@ -256,17 +271,17 @@ i.search-icon {
 
 /* Registration Pages */
 .mat-expansion-panel {
-  background-color: #005a56 !important;
+  background-color: var(--mainGreen) !important;
 }
 
 .mat-expansion-panel-header:hover {
-  background-color: #005a56 !important;
+  background-color: var(--mainGreen) !important;
 }
 
 .mat-form-field-appearance-fill .mat-form-field-flex,
 .mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple),
 .mat-select-panel mat-option.mat-option {
-  background-color: #006e69;
+  background-color: var(--secondaryGreen);
 }
 
 .ticket-questionnaire .mat-form-field-appearance-fill .mat-form-field-flex {
@@ -275,18 +290,18 @@ i.search-icon {
 
 .mat-select-panel mat-option.mat-option:hover,
 .mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple):hover {
-  background-color: #339a95;
+  background-color: var(--stepperGreen);
 }
 
 .mat-select-placeholder {
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
 }
 
 .ticket-count-wrapper .redeem-button {
   border-radius: 100px;
-  border: 1px solid #80c0bd;
+  border: 1px solid var(--tertiaryGreen);
   text-transform: lowercase;
-  color: #80c0bd !important;
+  color: var(--tertiaryGreen) !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 20px !important;
@@ -299,9 +314,9 @@ i.search-icon {
 }
 
 .ticket-count-wrapper .status-text:not(:empty) {
-  color: #ff8b8b !important;
+  color: var(--starRed) !important;
   text-transform: capitalize !important;
-  border: 1px solid #ff8b8b !important;
+  border: 1px solid var(--starRed) !important;
   border-radius: 8px !important;
   font-style: normal !important;
   font-weight: 700 !important;
@@ -313,7 +328,7 @@ i.search-icon {
 }
 
 .ticket-count-wrapper .ticket-price {
-  color: #ffffff;
+  color: var(--mainWhite);
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
@@ -324,8 +339,8 @@ i.search-icon {
 
 .card-wrapper .card-header,
 .order-summary-card .card-header {
-  color: #e5f2f2 !important;
-  border-bottom: 1px solid #4ca7a3 !important;
+  color: var(--secondaryGrey) !important;
+  border-bottom: 1px solid var(--headerGreen) !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 19px !important;
@@ -338,7 +353,7 @@ i.search-icon {
   font-size: 14px !important;
   line-height: 20px !important;
   letter-spacing: 0.1px !important;
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
 }
 
 .edit-link:first-letter {
@@ -346,14 +361,14 @@ i.search-icon {
 }
 
 .date-title {
-  background-color: #00817b;
+  background-color: var(--backgroundGreen);
   margin: 0 !important;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px 24px;
   gap: 10px;
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
   font-weight: 400 !important;
   font-size: 14px !important;
   line-height: 22px !important;
@@ -361,13 +376,13 @@ i.search-icon {
 }
 
 .event-ticket-wrapper .mat-stroked-button:not([disabled]).mat-primary {
-  background-color: #bddedd !important;
+  background-color: var(--lightGreen) !important;
   border: none;
   border-radius: 100px;
   width: 112px;
   height: 48px;
   font-weight: 700;
-  color: #00403d;
+  color: var(--inputGreen);
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.1px;
@@ -379,11 +394,11 @@ i.search-icon {
 
 .mat-flat-button.mat-primary {
   background-color: transparent !important;
-  border: 1px solid #bddedd !important;
+  border: 1px solid var(--lightGreen) !important;
   width: 112px;
   height: 48px;
   border-radius: 100px;
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 20px !important;
@@ -392,7 +407,7 @@ i.search-icon {
 
 .expand-link,
 .collapse-link {
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
   text-transform: lowercase;
   font-weight: 700 !important;
   font-size: 14px !important;
@@ -407,16 +422,16 @@ i.search-icon {
 
 .order-summary-card .collapse-arrow,
 .order-summary-card .expand-arrow {
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
 }
 
 .session-list-container {
-  background-color: #005a56 !important;
+  background-color: var(--mainGreen) !important;
   border: none !important;
 }
 
 .session-list-container .session-title {
-  color: #ffffff;
+  color: var(--mainWhite);
   font-weight: 700 !important;
   font-size: 12px !important;
   line-height: 18px !important;
@@ -429,18 +444,18 @@ i.search-icon {
 }
 
 .order-summary-card .clear-icon-button .mat-icon {
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
   line-height: 17px !important;
 }
 
 .mat-stepper-label-position-bottom
   .mat-horizontal-stepper-header
   .mat-step-icon {
-  background-color: #80c0bd;
+  background-color: var(--tertiaryGreen);
 }
 
 .mat-step-header .mat-step-label {
-  color: #b2b2b2;
+  color: var(--stepLabel);
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
@@ -449,7 +464,7 @@ i.search-icon {
 }
 
 .mat-step-label-selected {
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 22px !important;
@@ -459,17 +474,17 @@ i.search-icon {
 .mat-stepper-label-position-bottom
   .mat-horizontal-stepper-header
   .mat-step-label {
-  color: #a9acab;
+  color: var(--stepperGrey);
 }
 
 .mat-stepper-horizontal-line,
 .mat-horizontal-stepper-header:before,
 .mat-horizontal-stepper-header:after {
-  background-color: #339a95 !important;
+  background-color: var(--stepperGreen) !important;
 }
 
 .event-details .session-time {
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
 }
 
 .event-name .content {
@@ -486,13 +501,13 @@ bt-order-summary {
 .ticket-row .ticket-title,
 .session-summary .session-count-text,
 .mat-select-value-text {
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
 }
 
 .session-title mat-chip {
-  background-color: #006e69 !important;
-  color: #bddedd !important;
-  border: 1px solid #bddedd !important;
+  background-color: var(--secondaryGreen) !important;
+  color: var(--lightGreen) !important;
+  border: 1px solid var(--lightGreen) !important;
   font-weight: 700 !important;
   font-size: 12px !important;
   line-height: 18px !important;
@@ -500,11 +515,11 @@ bt-order-summary {
 }
 
 .mat-select-arrow {
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
 }
 
 .mat-form-field-label {
-  color: #ffffff;
+  color: var(--mainWhite);
 }
 
 .mat-form-field-label .mat-placeholder-required {
@@ -513,7 +528,7 @@ bt-order-summary {
 
 /* Complete Page */
 .status-card-body h1 {
-  color: #e5f2f2 !important;
+  color: var(--secondaryGrey) !important;
   font-weight: 500;
   font-size: 34px;
   line-height: 40px;
@@ -522,7 +537,7 @@ bt-order-summary {
 }
 
 .status-card-body .instruction {
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -533,9 +548,9 @@ bt-order-summary {
 .status-card-body .actions .mat-stroked-button:not([class*="mat-elevation-z"]) {
   width: 172px;
   background-color: transparent !important;
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
   border-radius: 4px !important;
-  border: 1px solid #80c0bd;
+  border: 1px solid var(--tertiaryGreen);
 }
 
 .status-card-body .success-image {
@@ -543,9 +558,9 @@ bt-order-summary {
 }
 
 .actions .done-btn {
-  background-color: #00817b !important;
+  background-color: var(--backgroundGreen) !important;
   border: none !important;
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
   text-transform: lowercase;
   width: 320px !important;
 }
@@ -556,11 +571,11 @@ bt-order-summary {
 
 /* Post Registration pages */
 bt-event-attendeelink-check-in .container {
-  background-color: #005a56 !important;
+  background-color: var(--mainGreen) !important;
 }
 
 .sessions-container .title {
-  color: #e5f2f2 !important;
+  color: var(--secondaryGrey) !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 19px !important;
@@ -572,8 +587,8 @@ bt-event-attendeelink-check-in .container {
 
 .sessions-container .sub-title {
   border-top: none !important;
-  background-color: #00817b !important;
-  color: #ffffff !important;
+  background-color: var(--backgroundGreen) !important;
+  color: var(--mainWhite) !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 14px !important;
@@ -585,8 +600,8 @@ bt-event-attendeelink-check-in .container {
 }
 
 .container .actions .mat-stroked-button:not([class*="mat-elevation-z"]) {
-  background-color: #00817b !important;
-  color: #ffffff !important;
+  background-color: var(--backgroundGreen) !important;
+  color: var(--mainWhite) !important;
   text-transform: lowercase !important;
 }
 
@@ -597,7 +612,7 @@ bt-event-attendeelink-check-in .container {
 }
 
 .product-item__detailText h1 {
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
   font-weight: 500 !important;
   font-size: 20px !important;
   line-height: 26px !important;
@@ -605,14 +620,14 @@ bt-event-attendeelink-check-in .container {
 
 .product-item__whenAndWhere {
   display: flex !important;
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
   font-weight: 400 !important;
   font-size: 16px !important;
   line-height: 22px !important;
   letter-spacing: 0.1px !important;
 }
 .product-item__name {
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
   font-weight: 400 !important;
   font-size: 16px !important;
   line-height: 22px !important;
@@ -620,7 +635,7 @@ bt-event-attendeelink-check-in .container {
 }
 
 .product-item__dateTime {
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
   font-weight: 400 !important;
   font-size: 14px !important;
   line-height: 22px !important;
@@ -628,11 +643,11 @@ bt-event-attendeelink-check-in .container {
 }
 
 .session-calendar-button {
-  border: 1px solid #80c0bd !important;
+  border: 1px solid var(--tertiaryGreen) !important;
   border-radius: 4px !important;
   height: 40px !important;
   padding: 8px 16px 8px 24px !important;
-  color: #ffffff;
+  color: var(--mainWhite);
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 20px !important;
@@ -645,9 +660,9 @@ bt-event-attendeelink-check-in .container {
 
 .session-status .unregister {
   height: 48px;
-  border: 1px solid #bddedd !important;
+  border: 1px solid var(--lightGreen) !important;
   background-color: transparent !important;
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
   letter-spacing: 0.1px !important;
   font-weight: 700 !important;
   font-size: 14px !important;
@@ -655,27 +670,27 @@ bt-event-attendeelink-check-in .container {
 }
 /* Errors/Alerts */
 app-notification {
-  background-color: #333333 !important;
+  background-color: var(--alertColor) !important;
   width: 375px !important;
 }
 
 app-notification .container {
-  background-color: #333333 !important;
+  background-color: var(--alertColor) !important;
 }
 
 app-notification mat-icon {
-  color: #80c0bd !important;
+  color: var(--tertiaryGreen) !important;
 }
 
 app-notification .title {
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
   font-weight: 500 !important;
   font-size: 20px !important;
   line-height: 26px !important;
 }
 
 app-notification .detail {
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
   font-weight: 400 !important;
   font-size: 14px !important;
   line-height: 22px !important;
@@ -685,15 +700,15 @@ app-notification .detail {
 /* -- Mobile -- */
 /* Landing Pages */
 .mobile-registration-action-container {
-  background-color: #005a56 !important;
+  background-color: var(--mainGreen) !important;
 }
 
 .mobile-registration-button {
-  background-color: #bddedd !important;
+  background-color: var(--lightGreen) !important;
   border-radius: 100px !important;
   height: 48px;
   text-transform: capitalize !important;
-  color: #00403d !important;
+  color: var(--inputGreen) !important;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -702,35 +717,35 @@ app-notification .detail {
 
 .mobile-menu {
   justify-content: center;
-  background-color: #f2f9f8 !important;
+  background-color: var(--mobileMenuWhite) !important;
 }
 
 .bottom-nav .mobile-menu__item i,
 .bottom-nav span {
-  color: #5c5f5e !important;
+  color: var(--mobileMenuNav) !important;
 }
 
 .order-summary-sticky {
-  background-color: #ffffff !important;
+  background-color: var(--mainWhite) !important;
 }
 
 .order-summary-sticky .cart-icon {
-  color: #2e3130 !important;
+  color: var(--cartIcon) !important;
 }
 
 .mat-badge-small.mat-badge-overlap.mat-badge-after .mat-badge-content {
-  background-color: #00817b;
+  background-color: var(--backgroundGreen);
 }
 
 @media screen and (max-width: 37.4375rem) {
   .order-summary-card.show-summary .bt-card {
-    background-color: #002725 !important;
+    background-color: var(--backgroundOverview) !important;
   }
 }
 
 @media screen and (max-width: 37.4375rem) {
   .order-summary-card .card-header {
-    background-color: #00817b !important;
+    background-color: var(--backgroundGreen) !important;
   }
 }
 
