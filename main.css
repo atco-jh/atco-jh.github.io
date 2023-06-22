@@ -14,6 +14,7 @@
   --lightGreen: #bddedd;
   --stepLabel: #b2b2b2;
   --stepperGrey: #a9acab;
+  --dividerGrey: ##c4c7c6;
   --headerGreen: #4ca7a3;
   --errorColor: #ff9a9a !important;
   --starRed: #ff8b8b;
@@ -45,6 +46,16 @@ i {
 
 /* -- Desktop -- */
 /* Landing Pages */
+
+/*OVERVIEW PAGES*/
+
+.bt-card.description,
+#date-and-time .bt-card,
+#location .bt-card {
+  background-color: var(--mainGreen) !important;
+}
+
+/*EVERY OTHER PAGE*/
 
 bt-event-attendeelink-main div .main.content-container {
   background-color: var(--mainWhite) !important;
@@ -164,12 +175,12 @@ i.search-icon {
 }
 
 .bt-card {
-  background-color: var(--mainGreen) !important;
+  background-color: var(--mainGrey) !important;
 }
 
 .featured-session-header,
 .main .bt-card-header {
-  background-color: var(--mainGreen) !important;
+  background-color: var(--mainGrey) !important;
   color: var(--secondaryGrey) !important;
   font-style: normal !important;
   font-weight: 700 !important;
@@ -244,8 +255,8 @@ i.search-icon {
 }
 
 .action-button {
-  background-color: var(--lightGreen);
-  color: var(--inputGreen) !important;
+  background-color: var(--backgroundGreen) !important;
+  color: var(--mainWhite) !important;
   text-transform: capitalize !important;
   font-style: normal;
   font-weight: 700 !important;
