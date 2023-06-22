@@ -1,15 +1,18 @@
 /* -- Global -- */
 
 :root {
+  --backgroundOverview: #002725;
+  --backgroundCheckout: #ffffff;
+  --mainColor: #005a56;
   --errorColor: #ff9a9a !important;
 }
 
 body {
-  background-color: #002725;
+  background-color: var(--backgroundColorOverview);
 }
 
 nav {
-  background-color: #005a56 !important;
+  background-color: var(--mainColor) !important;
 }
 
 section {
@@ -25,6 +28,11 @@ i {
 
 /* -- Desktop -- */
 /* Landing Pages */
+
+bt-event-attendeelink-main div .main.content-container {
+  background-color: var(--backgroundCheckout) !important;
+}
+
 .appbar {
   background-color: #005a56 !important;
   box-shadow: none !important;
