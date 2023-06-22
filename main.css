@@ -68,6 +68,14 @@ i {
   border-bottom: 1px solid var(--headerGreen);
 }
 
+#date-and-time .card-wrapper .card-header {
+  color: var(--secondaryGrey) !important;
+  border-bottom: 1px solid var(--headerGreen) !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  letter-spacing: 1.2px !important;
+}
 /*EVERY OTHER PAGE*/
 
 bt-event-attendeelink-main div .main.content-container {
@@ -364,7 +372,7 @@ i.search-icon {
 .card-wrapper .card-header,
 .order-summary-card .card-header {
   color: var(--secondaryGrey) !important;
-  border-bottom: 1px solid var(--headerGreen) !important;
+  border-bottom: 1px solid var(--dividerGrey) !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 19px !important;
