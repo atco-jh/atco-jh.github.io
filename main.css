@@ -2,17 +2,19 @@
 
 :root {
   --backgroundOverview: #002725;
-  --backgroundCheckout: #ffffff;
-  --mainColor: #005a56;
+  --mainWhite: #ffffff;
+  --mainGreen: #005a56;
+  --secondaryGreen: #006e69;
+  --lightGreen: #bddedd;
   --errorColor: #ff9a9a !important;
 }
 
 body {
-  background-color: var(--backgroundColorOverview);
+  background-color: var(--backgroundOverview);
 }
 
 nav {
-  background-color: var(--mainColor) !important;
+  background-color: var(--mainGreen) !important;
 }
 
 section {
@@ -30,7 +32,7 @@ i {
 /* Landing Pages */
 
 bt-event-attendeelink-main div .main.content-container {
-  background-color: var(--backgroundCheckout) !important;
+  background-color: var(--mainWhite) !important;
 }
 
 .appbar {
