@@ -17,7 +17,7 @@
   --dividerGrey: #c4c7c6;
   --headerGreen: #4ca7a3;
   --errorColor: #ff9a9a !important;
-  --starRed: #ff8b8b;
+  --starRed: #c3003b;
   --stepperGreen: #339a95;
   --cartIcon: #2e3130;
   --mobileMenuNav: #5c5f5e;
@@ -197,6 +197,7 @@ i.search-icon {
   font-weight: 700;
   letter-spacing: 1.2px;
 }
+
 .bt-card-header {
   color: var(--secondaryGrey) !important;
   text-transform: uppercase;
@@ -325,7 +326,12 @@ i.search-icon {
 .mat-form-field-appearance-fill .mat-form-field-flex,
 .mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple),
 .mat-select-panel mat-option.mat-option {
-  background-color: var(--secondaryGreen);
+  background-color: var(--mainWhite);
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex span,
+.mat-option-text {
+  color: var(--mainBlack) !important;
 }
 
 .ticket-questionnaire .mat-form-field-appearance-fill .mat-form-field-flex {
@@ -371,8 +377,9 @@ i.search-icon {
   padding: 6px 8px !important;
 }
 
-.ticket-count-wrapper .ticket-price {
-  color: var(--mainWhite);
+.ticket-count-wrapper .ticket-price,
+.ticket-count-wrapper .ticket-price strong {
+  color: var(--backgroundGreen);
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
