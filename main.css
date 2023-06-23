@@ -76,6 +76,30 @@ i {
   line-height: 19px !important;
   letter-spacing: 1.2px !important;
 }
+
+.bt-date-badge {
+  box-shadow: none !important;
+}
+
+.bt-date-badge__month {
+  background-color: var(--backgroundGreen) !important;
+  color: var(--mainWhite) !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  letter-spacing: 0.1px !important;
+}
+
+.bt-date-badge__month:first-letter,
+.bt-date-badge__month:first-line {
+  text-transform: uppercase;
+}
+
+.bt-date-badge__day {
+  background-color: var(--mainGrey) !important;
+  color: var(--mainBlack) !important;
+}
+
 /*EVERY OTHER PAGE*/
 
 bt-event-attendeelink-main div .main.content-container {
@@ -162,29 +186,17 @@ i.search-icon {
   line-height: 22px;
 }
 
-.bt-date-badge {
-  box-shadow: none !important;
+.content p {
+  color: black !important;
 }
 
-.bt-date-badge__month {
-  background-color: var(--backgroundGreen) !important;
-  color: var(--mainWhite) !important;
-  font-weight: 700 !important;
-  font-size: 12px !important;
-  line-height: 18px !important;
-  letter-spacing: 0.1px !important;
+.bt-card-header.card-header .title strong {
+  color: black !important;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
 }
-
-.bt-date-badge__month:first-letter,
-.bt-date-badge__month:first-line {
-  text-transform: uppercase;
-}
-
-.bt-date-badge__day {
-  background-color: var(--mainGrey) !important;
-  color: var(--mainBlack) !important;
-}
-
 .bt-card-header {
   color: var(--secondaryGrey) !important;
   text-transform: uppercase;
