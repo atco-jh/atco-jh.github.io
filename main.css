@@ -100,7 +100,16 @@ i {
   color: var(--mainBlack) !important;
 }
 
-/*EVERY OTHER PAGE*/
+.appbar .bt-rich-text div,
+.event-name .bt-rich-text div {
+  color: var(--mainWhite) !important;
+}
+
+/*CHECKOUT PAGES*/
+
+.bt-rich-text div {
+  color: var(--mainBlack) !important;
+}
 
 bt-event-attendeelink-main div .main.content-container {
   background-color: var(--mainWhite) !important;
