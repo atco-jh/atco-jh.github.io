@@ -16,7 +16,7 @@
   --stepperGrey: #757877;
   --dividerGrey: #c4c7c6;
   --headerGreen: #4ca7a3;
-  --errorColor: #ff9a9a !important;
+  --errorColor: #c3003b !important;
   --starRed: #c3003b;
   --stepperGreen: #339a95;
   --cartIcon: #2e3130;
@@ -352,6 +352,13 @@ i.search-icon {
   background-color: var(--stepperGreen);
 }
 
+.mat-select-panel mat-option.mat-option:hover .mat-option-text,
+.mat-select-panel
+  .mat-option.mat-selected:not(.mat-option-multiple):hover
+  .mat-option-text {
+  color: var(--mainWhite) !important;
+}
+
 .mat-select-placeholder {
   color: var(--mainWhite) !important;
 }
@@ -567,7 +574,7 @@ bt-order-summary {
 .ticket-row .ticket-title,
 .session-summary .session-count-text,
 .mat-select-value-text {
-  color: var(--mainWhite) !important;
+  color: var(--mainBlack) !important;
 }
 
 .session-title mat-chip {
@@ -589,7 +596,7 @@ bt-order-summary {
 }
 
 .mat-form-field-label .mat-placeholder-required {
-  color: red !important;
+  color: var(--starRed) !important;
 }
 
 /* Complete Page */
