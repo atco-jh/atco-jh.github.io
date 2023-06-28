@@ -233,6 +233,15 @@ i.search-icon {
   color: var(--secondaryGrey) !important;
 }
 
+/*ATTENDEE PAGE*/
+.attendees-wrapper mat-expansion-panel {
+  background-color: var(--mainGrey) !important;
+}
+
+.attendees-wrapper mat-expansion-panel mat-expansion-panel-header:hover {
+  background-color: var(--mainGrey) !important;
+}
+
 .mat-raised-button .mat-button-wrapper > * {
   text-transform: capitalize !important;
 }
@@ -404,7 +413,7 @@ i.search-icon {
   font-size: 14px !important;
   line-height: 20px !important;
   letter-spacing: 0.1px !important;
-  color: var(--lightGreen) !important;
+  color: var(--backgroundGreen) !important;
 }
 
 .edit-link:first-letter {
