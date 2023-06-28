@@ -80,10 +80,6 @@ i {
   letter-spacing: 1.2px !important;
 }
 
-.bt-date-badge {
-  box-shadow: none !important;
-}
-
 .bt-date-badge__month {
   background-color: var(--backgroundGreen) !important;
   color: var(--mainWhite) !important;
@@ -99,7 +95,7 @@ i {
 }
 
 .bt-date-badge__day {
-  background-color: var(--mainGrey) !important;
+  background-color: var(--mainWhite) !important;
   color: var(--mainBlack) !important;
 }
 
@@ -639,6 +635,7 @@ bt-order-summary {
 }
 
 /* Complete Page */
+
 .status-card-body h1 {
   color: var(--secondaryGrey) !important;
   font-weight: 500;
@@ -682,8 +679,17 @@ bt-order-summary {
 }
 
 /* Post Registration pages */
+
+body:has(bt-event-attendeelink-check-in) {
+  background-color: var(--mainWhite);
+}
+
 bt-event-attendeelink-check-in .container {
-  background-color: var(--mainGreen) !important;
+  background-color: var(--mainGrey) !important;
+}
+
+bt-event-attendeelink-check-in .container h3 {
+  color: var(--mainBlack) !important;
 }
 
 .sessions-container .title {
@@ -724,7 +730,7 @@ bt-event-attendeelink-check-in .container {
 }
 
 .product-item__detailText h1 {
-  color: var(--lightGreen) !important;
+  color: var(--mainBlack) !important;
   font-weight: 500 !important;
   font-size: 20px !important;
   line-height: 26px !important;
@@ -732,7 +738,7 @@ bt-event-attendeelink-check-in .container {
 
 .product-item__whenAndWhere {
   display: flex !important;
-  color: var(--lightGreen) !important;
+  color: var(--mainBlack) !important;
   font-weight: 400 !important;
   font-size: 16px !important;
   line-height: 22px !important;
@@ -747,7 +753,7 @@ bt-event-attendeelink-check-in .container {
 }
 
 .product-item__dateTime {
-  color: var(--lightGreen) !important;
+  color: var(--timeGrey) !important;
   font-weight: 400 !important;
   font-size: 14px !important;
   line-height: 22px !important;
@@ -780,6 +786,7 @@ bt-event-attendeelink-check-in .container {
   font-size: 14px !important;
   line-height: 20px !important;
 }
+
 /* Errors/Alerts */
 app-notification {
   background-color: var(--alertColor) !important;
