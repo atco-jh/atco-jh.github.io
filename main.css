@@ -471,6 +471,11 @@ i.search-icon {
   text-transform: capitalize;
 }
 
+.summary-container .order-summary-card strong,
+.summary-container .order-summary-card .ticket-row .ticket-title {
+  color: var(--mainBlack) !important;
+}
+
 .order-summary-card .collapse-arrow,
 .order-summary-card .expand-arrow {
   color: var(--lightGreen) !important;
@@ -495,7 +500,7 @@ i.search-icon {
 }
 
 .order-summary-card .clear-icon-button .mat-icon {
-  color: var(--lightGreen) !important;
+  color: var(--backgroundGreen) !important;
   line-height: 17px !important;
 }
 
