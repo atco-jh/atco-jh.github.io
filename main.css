@@ -105,9 +105,14 @@ i {
   color: var(--mainWhite) !important;
 }
 
+.featured-sessions-container .featured-session-header {
+  background-color: var(--mainGreen) !important;
+}
+
 /*CHECKOUT PAGES*/
 
-.bt-rich-text div {
+.bt-rich-text div,
+.bt-rich-text strong {
   color: var(--mainBlack) !important;
 }
 
@@ -345,9 +350,13 @@ i.search-icon {
   background-color: var(--mainGreen) !important;
 }
 
-.mat-form-field-appearance-fill .mat-form-field-flex,
 .mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple),
 .mat-select-panel mat-option.mat-option {
+  background-color: var(--mainWhite);
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex,
+.mat-form-field-appearance-fill .mat-form-field-flex:hover {
   background-color: var(--mainWhite);
   border-bottom: 1px solid var(--mainBlack);
 }
