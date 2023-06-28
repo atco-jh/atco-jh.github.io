@@ -106,8 +106,15 @@ i {
 
 .featured-sessions-container .featured-session-header {
   background-color: var(--mainGreen) !important;
+  color: var(--secondaryGrey) !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  letter-spacing: 1.2px !important;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--headerGreen) !important;
 }
-
 /* CHECKOUT PAGES */
 
 .bt-rich-text div,
@@ -225,7 +232,6 @@ i.search-icon {
   background-color: var(--mainGrey) !important;
 }
 
-.featured-session-header,
 .main .bt-card-header {
   background-color: var(--mainGrey) !important;
   color: var(--mainBlack) !important;
