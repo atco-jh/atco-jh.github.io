@@ -80,6 +80,7 @@ i {
   letter-spacing: 1.2px !important;
 }
 
+.product-item__eventDetails .bt-date-badge__month,
 .bt-date-badge__month {
   background-color: var(--backgroundGreen) !important;
   color: var(--mainWhite) !important;
