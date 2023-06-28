@@ -379,7 +379,7 @@ i.search-icon {
 
 .ticket-count-wrapper .ticket-price,
 .ticket-count-wrapper .ticket-price strong {
-  color: var(--backgroundGreen);
+  color: var(--backgroundGreen) !important;
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
