@@ -242,6 +242,10 @@ i.search-icon {
   color: var(--secondaryGrey) !important;
 }
 
+.custom-field .mat-form-field-wrapper {
+  border-bottom: 1px solid var(--mainBlack);
+}
+
 /*ATTENDEE PAGE*/
 .attendees-wrapper mat-expansion-panel {
   background-color: var(--mainGrey) !important;
@@ -345,6 +349,7 @@ i.search-icon {
 .mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple),
 .mat-select-panel mat-option.mat-option {
   background-color: var(--mainWhite);
+  border-bottom: 1px solid var(--mainBlack);
 }
 
 .mat-form-field-appearance-fill .mat-form-field-flex span,
@@ -597,7 +602,7 @@ bt-order-summary {
 }
 
 .mat-select-arrow {
-  color: var(--mainWhite) !important;
+  color: var(--mainBlack) !important;
 }
 
 .mat-form-field-label {
