@@ -232,14 +232,18 @@ i.search-icon {
 .featured-session-header,
 .main .bt-card-header {
   background-color: var(--mainGrey) !important;
-  color: var(--secondaryGrey) !important;
+  color: var(--mainBlack) !important;
   font-style: normal !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 19px !important;
   letter-spacing: 1.2px !important;
   text-transform: uppercase;
-  border-bottom: 1px solid var(--headerGreen);
+  border-bottom: 1px solid var(--dividerGrey) !important;
+}
+
+.bt-card-header strong {
+  color: var(--mainBlack) !important;
 }
 
 .featured-session-container.active {
