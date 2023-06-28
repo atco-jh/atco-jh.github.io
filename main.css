@@ -13,7 +13,7 @@
   --tertiaryGreen: #80c0bd;
   --lightGreen: #bddedd;
   --stepLabel: #b2b2b2;
-  --stepperGrey: #a9acab;
+  --stepperGrey: #757877;
   --dividerGrey: #c4c7c6;
   --headerGreen: #4ca7a3;
   --errorColor: #ff9a9a !important;
@@ -516,7 +516,14 @@ i.search-icon {
 .mat-stepper-label-position-bottom
   .mat-horizontal-stepper-header
   .mat-step-icon {
-  background-color: var(--tertiaryGreen);
+  background-color: var(--backgroundGreen);
+  color: var(--mainWhite);
+}
+
+.mat-stepper-label-position-bottom
+  .mat-horizontal-stepper-header
+  .mat-step-label {
+  color: var(--stepperGrey);
 }
 
 .mat-step-header .mat-step-label {
@@ -529,17 +536,11 @@ i.search-icon {
 }
 
 .mat-step-label-selected {
-  color: var(--mainWhite) !important;
+  color: var(--mainBlack) !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 22px !important;
   letter-spacing: 0.3px !important;
-}
-
-.mat-stepper-label-position-bottom
-  .mat-horizontal-stepper-header
-  .mat-step-label {
-  color: var(--stepperGrey);
 }
 
 .mat-stepper-horizontal-line,
