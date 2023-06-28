@@ -23,6 +23,7 @@
   --mobileMenuNav: #5c5f5e;
   --mobileMenuWhite: #f2f9f8;
   --alertColor: #333333;
+  --timeGrey: #454747;
 }
 
 body {
@@ -109,7 +110,7 @@ i {
   background-color: var(--mainGreen) !important;
 }
 
-/*CHECKOUT PAGES*/
+/* CHECKOUT PAGES */
 
 .bt-rich-text div,
 .bt-rich-text strong {
@@ -252,10 +253,7 @@ i.search-icon {
 }
 
 /*ATTENDEE PAGE*/
-.attendees-wrapper mat-expansion-panel {
-  background-color: var(--mainGrey) !important;
-}
-
+.attendees-wrapper mat-expansion-panel,
 .attendees-wrapper mat-expansion-panel mat-expansion-panel-header:hover {
   background-color: var(--mainGrey) !important;
 }
@@ -264,6 +262,7 @@ i.search-icon {
   text-transform: capitalize !important;
 }
 
+/* SESSIONS PAGE */
 .mat-tab-link {
   text-transform: capitalize !important;
   font-style: normal;
@@ -287,6 +286,12 @@ i.search-icon {
   line-height: 22px !important;
   letter-spacing: 0.15px !important;
   display: inline-block;
+}
+
+.event-ticket-wrapper mat-expansion-panel mat-expansion-panel-header,
+.event-ticket-wrapper mat-expansion-panel mat-expansion-panel-header:hover,
+.event-ticket-wrapper .mat-expansion-panel-body {
+  background-color: var(--mainGrey) !important;
 }
 
 .session-item-container {
@@ -470,7 +475,8 @@ i.search-icon {
 }
 
 .event-ticket-wrapper .mat-stroked-button:not([disabled]).mat-primary {
-  background-color: var(--lightGreen) !important;
+  background-color: var(--backgroundGreen) !important;
+  color: var(--mainWhite) !important;
   border: none;
   border-radius: 100px;
   width: 112px;
@@ -488,11 +494,11 @@ i.search-icon {
 
 .mat-flat-button.mat-primary {
   background-color: transparent !important;
-  border: 1px solid var(--lightGreen) !important;
+  border: 1px solid var(--backgroundGreen) !important;
   width: 112px;
   height: 48px;
   border-radius: 100px;
-  color: var(--lightGreen) !important;
+  color: var(--backgroundGreen) !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 20px !important;
@@ -501,7 +507,7 @@ i.search-icon {
 
 .expand-link,
 .collapse-link {
-  color: var(--lightGreen) !important;
+  color: var(--backgroundGreen) !important;
   text-transform: lowercase;
   font-weight: 700 !important;
   font-size: 14px !important;
@@ -584,7 +590,7 @@ i.search-icon {
 }
 
 .event-details .session-time {
-  color: var(--lightGreen) !important;
+  color: var(--timeGrey) !important;
 }
 
 .event-name .content {
