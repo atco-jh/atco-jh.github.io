@@ -366,6 +366,10 @@ i.search-icon {
   color: var(--mainBlack) !important;
 }
 
+.mat-form-field .mat-form-field-wrapper .mat-form-field-flex input {
+  color: var(--mainBlack) !important;
+}
+
 .ticket-questionnaire .mat-form-field-appearance-fill .mat-form-field-flex {
   padding: 0 0.75em 0 0.75em !important;
 }
