@@ -11,6 +11,7 @@
   --secondaryGrey: #e5f2f2;
   --secondaryGreen: #006e69;
   --tertiaryGreen: #80c0bd;
+  --tertiaryGrey: #e0e3e2;
   --lightGreen: #bddedd;
   --stepLabel: #b2b2b2;
   --stepperGrey: #757877;
@@ -24,6 +25,7 @@
   --mobileMenuWhite: #f2f9f8;
   --alertColor: #333333;
   --timeGrey: #454747;
+  --outlineGrey: #a9acab;
 }
 
 body {
@@ -460,14 +462,14 @@ i.search-icon {
 }
 
 .date-title {
-  background-color: var(--backgroundGreen);
+  background-color: var(--tertiaryGrey);
   margin: 0 !important;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px 24px;
   gap: 10px;
-  color: var(--mainWhite) !important;
+  color: var(--mainBlack) !important;
   font-weight: 400 !important;
   font-size: 14px !important;
   line-height: 22px !important;
@@ -611,9 +613,9 @@ bt-order-summary {
 }
 
 .session-title mat-chip {
-  background-color: var(--secondaryGreen) !important;
-  color: var(--lightGreen) !important;
-  border: 1px solid var(--lightGreen) !important;
+  background-color: var(--mainWhite) !important;
+  color: var(--mainBlack) !important;
+  border: 1px solid var(--outlineGrey) !important;
   font-weight: 700 !important;
   font-size: 12px !important;
   line-height: 18px !important;
