@@ -693,7 +693,7 @@ bt-event-attendeelink-check-in .container h3 {
 }
 
 .sessions-container .title {
-  color: var(--secondaryGrey) !important;
+  color: var(--mainBlack) !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 19px !important;
@@ -760,27 +760,39 @@ bt-event-attendeelink-check-in .container h3 {
   letter-spacing: 0.15px !important;
 }
 
+.product-item__eventDetails h2,
+.product-item__eventDetails div {
+  color: var(--mainBlack) !important;
+}
+
 .session-calendar-button {
-  border: 1px solid var(--tertiaryGreen) !important;
+  border: none;
+  background-color: var(--mainWhite) !important;
   border-radius: 4px !important;
   height: 40px !important;
   padding: 8px 16px 8px 24px !important;
-  color: var(--mainWhite);
+  color: var(--mainBlack) !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 20px !important;
   letter-spacing: 0.1px !important;
 }
 
+.session-calendar-button i {
+  color: var(--mainBlack) !important;
+}
+
 .session-status .register {
+  background-color: var(--backgroundGreen) !important;
+  color: var(--mainWhite) !important;
   height: 48px;
 }
 
 .session-status .unregister {
   height: 48px;
-  border: 1px solid var(--lightGreen) !important;
+  border: 1px solid var(--backgroundGreen) !important;
   background-color: transparent !important;
-  color: var(--lightGreen) !important;
+  color: var(--backgroundGreen) !important;
   letter-spacing: 0.1px !important;
   font-weight: 700 !important;
   font-size: 14px !important;
