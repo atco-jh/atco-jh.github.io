@@ -847,6 +847,10 @@ bt-event-attendeelink-check-in .container h3 {
   background-color: var(--mainWhite) !important;
 }
 
+.session-status .confirmed {
+  color: var(--backgroundGreen) !important;
+}
+
 /* Errors/Alerts */
 app-notification {
   background-color: var(--alertColor) !important;
