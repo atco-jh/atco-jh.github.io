@@ -48,14 +48,16 @@ i {
 }
 
 /* -- Desktop -- */
-/* Landing Pages */
-
 /*OVERVIEW PAGES*/
 
 .bt-card.description,
 #date-and-time .bt-card,
 #location .bt-card {
   background-color: var(--mainGreen) !important;
+}
+
+.bt-card.description strong {
+  color: var(--mainWhite) !important;
 }
 
 #date-and-time .bt-card-header,
@@ -116,7 +118,17 @@ i {
   text-transform: uppercase;
   border-bottom: 1px solid var(--headerGreen) !important;
 }
+
+#main #description .bt-rich-text p,
+#main #description .bt-rich-text strong {
+  color: var(--mainWhite) !important;
+}
+
 /* CHECKOUT PAGES */
+
+body:has(bt-order-summary) {
+  background-color: var(--mainWhite);
+}
 
 .bt-rich-text div,
 .bt-rich-text strong {
@@ -521,7 +533,9 @@ i.search-icon {
 }
 
 .expand-link,
-.collapse-link {
+.expand-link strong,
+.collapse-link,
+.session-summary strong {
   color: var(--backgroundGreen) !important;
   text-transform: lowercase;
   font-weight: 700 !important;
@@ -535,19 +549,23 @@ i.search-icon {
   text-transform: capitalize;
 }
 
-.summary-container .order-summary-card strong,
+.summary-container .order-summary-card strong:not(.expand-link, .collapse-link),
 .summary-container .order-summary-card .ticket-row .ticket-title {
   color: var(--mainBlack) !important;
 }
 
 .order-summary-card .collapse-arrow,
 .order-summary-card .expand-arrow {
-  color: var(--lightGreen) !important;
+  color: var(--backgroundGreen) !important;
+}
+
+.session-summary .session-list-container {
+  background-color: var(--mainGrey) !important;
+  border: none !important;
 }
 
 .session-list-container {
-  background-color: var(--mainGreen) !important;
-  border: none !important;
+  background-color: var(--mainGrey) !important;
 }
 
 .session-list-container .session-title {
@@ -841,8 +859,8 @@ app-notification .detail {
   letter-spacing: 0.15px !important;
   margin-top: 0 !important;
 }
+
 /* -- Mobile -- */
-/* Landing Pages */
 .mobile-registration-action-container {
   background-color: var(--mainGreen) !important;
 }
@@ -881,15 +899,38 @@ app-notification .detail {
   background-color: var(--backgroundGreen);
 }
 
+.mat-checkbox-frame {
+  border-color: var(--backgroundGreen) !important;
+}
+
+.mat-checkbox-checked.mat-primary .mat-checkbox-background {
+  background: transparent !important;
+}
+.attendee-title-mobile {
+  color: var(--mainBlack) !important;
+}
+
+@media screen and (max-width: 37.4375rem) {
+  .event-details .session-price span {
+    color: var(--backgroundGreen) !important;
+  }
+}
+
 @media screen and (max-width: 37.4375rem) {
   .order-summary-card.show-summary .bt-card {
-    background-color: var(--backgroundOverview) !important;
+    background-color: var(--mainWhite) !important;
   }
 }
 
 @media screen and (max-width: 37.4375rem) {
   .order-summary-card .card-header {
     background-color: var(--backgroundGreen) !important;
+  }
+}
+
+@media screen and (max-width: 37.4375rem) {
+  .order-summary-card .bt-card-header.card-header {
+    color: var(--mainWhite) !important;
   }
 }
 
@@ -902,5 +943,64 @@ app-notification .detail {
 @media screen and (max-width: 59.9375rem) {
   .actions .done-btn {
     width: 150% !important;
+  }
+}
+
+@media screen and (max-width: 37.4375rem) {
+  .session-details-wrapper .session-name {
+    color: var(--mainBlack) !important;
+  }
+}
+
+@media screen and (max-width: 37.4375rem) {
+  .session-details-wrapper .session-date {
+    color: var(--timeGrey) !important;
+  }
+}
+
+@media screen and (max-width: 37.4375rem) {
+  .session-details-wrapper .full-width .added-btn-hover-effect {
+    color: var(--backgroundGreen);
+    border: 1px solid var(--backgroundGreen);
+    border-radius: 100px !important;
+    height: 48px;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    letter-spacing: 0.1px !important;
+  }
+}
+
+@media screen and (max-width: 37.4375rem) {
+  .session-details-wrapper .full-width:not(.added-btn-hover-effect) {
+    color: var(--mainWhite);
+    background-color: var(--backgroundGreen);
+    border-radius: 100px !important;
+    height: 48px;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    letter-spacing: 0.1px !important;
+  }
+}
+
+@media screen and (max-width: 37.4375rem) {
+  .session-details-wrapper .close-icon {
+    color: var(--backgroundGreen) !important;
+  }
+}
+
+@media screen and (max-width: 37.4375rem) {
+  .order-summary-card .card-header .cross-icon {
+    color: var(--mainWhite) !important;
+  }
+}
+
+@media screen and (max-width: 37.4375rem) {
+  .summary-container
+    .order-summary-card
+    .bt-card-header
+    strong:not(.expand-link, .collapse-link) {
+    color: var(--mainWhite) !important;
   }
 }
