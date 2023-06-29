@@ -695,9 +695,12 @@ bt-order-summary {
 }
 
 /* Complete Page */
+body:has(bt-order-success-failure) {
+  background-color: var(--mainWhite);
+}
 
 .status-card-body h1 {
-  color: var(--secondaryGrey) !important;
+  color: var(--mainBlack) !important;
   font-weight: 500;
   font-size: 34px;
   line-height: 40px;
@@ -706,7 +709,7 @@ bt-order-summary {
 }
 
 .status-card-body .instruction {
-  color: var(--lightGreen) !important;
+  color: var(--mainBlack) !important;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -716,10 +719,16 @@ bt-order-summary {
 
 .status-card-body .actions .mat-stroked-button:not([class*="mat-elevation-z"]) {
   width: 172px;
-  background-color: transparent !important;
-  color: var(--mainWhite) !important;
+  background-color: var(--mainWhite) !important;
+  color: var(--mainBlack) !important;
   border-radius: 4px !important;
-  border: 1px solid var(--tertiaryGreen);
+}
+
+.status-card-body
+  .actions
+  .mat-stroked-button:not([class*="mat-elevation-z"])
+  .material-icons {
+  color: var(--mainBlack) !important;
 }
 
 .status-card-body .success-image {
