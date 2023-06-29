@@ -179,16 +179,11 @@ i.search-icon {
 }
 
 .mat-menu-item {
-  background-color: var(--mainWhite);
-  color: var(--mainBlack);
-}
-
-.mat-menu-item:hover {
-  background-color: var(--backgroundGreen) !important;
+  background-color: var(--secondaryGreen) !important;
 }
 
 .mat-menu-panel {
-  background-color: var(--mainWhite) !important;
+  background-color: var(--secondaryGreen) !important;
 }
 
 .button {
@@ -837,6 +832,19 @@ bt-event-attendeelink-check-in .container h3 {
 
 .product-item__expansionIcon span {
   color: var(--backgroundGreen) !important;
+}
+
+.mat-menu-panel:has(mat-icon[svgicon="logo-apple"]) .mat-menu-item {
+  background-color: var(--mainWhite) !important;
+  color: var(--mainBlack);
+}
+
+.mat-menu-panel:has(mat-icon[svgicon="logo-apple"]) .mat-menu-item:hover {
+  background-color: var(--backgroundGreen) !important;
+}
+
+.mat-menu-panel:has(mat-icon[svgicon="logo-apple"]) {
+  background-color: var(--mainWhite) !important;
 }
 
 /* Errors/Alerts */
