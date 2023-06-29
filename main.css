@@ -179,11 +179,16 @@ i.search-icon {
 }
 
 .mat-menu-item {
-  background-color: var(--secondaryGreen) !important;
+  background-color: var(--mainWhite);
+  color: var(--mainBlack);
+}
+
+.mat-menu-item:hover {
+  background-color: var(--backgroundGreen) !important;
 }
 
 .mat-menu-panel {
-  background-color: var(--secondaryGreen) !important;
+  background-color: var(--mainWhite) !important;
 }
 
 .button {
@@ -828,6 +833,10 @@ bt-event-attendeelink-check-in .container h3 {
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 20px !important;
+}
+
+.product-item__expansionIcon span {
+  color: var(--backgroundGreen) !important;
 }
 
 /* Errors/Alerts */
