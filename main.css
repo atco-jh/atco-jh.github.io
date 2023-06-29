@@ -380,8 +380,14 @@ i.search-icon {
   color: var(--mainBlack) !important;
 }
 
-.mat-form-field .mat-form-field-wrapper .mat-form-field-flex input {
+.mat-form-field .mat-form-field-wrapper .mat-form-field-flex input,
+.mat-form-field .mat-form-field-wrapper .mat-form-field-flex textarea {
   color: var(--mainBlack) !important;
+}
+
+.mat-form-field .mat-form-field-wrapper .mat-form-field-flex:hover {
+  background-color: var(--mainWhite);
+  border-bottom: 1px solid var(--mainBlack);
 }
 
 .ticket-questionnaire .mat-form-field-appearance-fill .mat-form-field-flex {
