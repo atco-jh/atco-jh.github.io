@@ -381,6 +381,32 @@ i.search-icon {
   background-color: var(--mainWhite);
 }
 
+.mat-select-panel
+  .mat-option.mat-selected:not(.mat-option-multiple)
+  .mat-pseudo-checkbox,
+.mat-select-panel mat-option.mat-option .mat-pseudo-checkbox {
+  color: var(--backgroundGreen);
+}
+
+.mat-pseudo-checkbox.mat-pseudo-checkbox-checked {
+  background: transparent !important;
+  border-color: var(--backgroundGreen) !important;
+}
+
+.mat-select-panel
+  .mat-option.mat-selected:not(.mat-option-multiple):hover
+  .mat-pseudo-checkbox,
+.mat-select-panel mat-option.mat-option:hover .mat-pseudo-checkbox {
+  color: var(--mainWhite);
+}
+
+.mat-select-panel
+  mat-option.mat-option:hover
+  .mat-pseudo-checkbox.mat-pseudo-checkbox-checked {
+  background: transparent !important;
+  border-color: var(--mainWhite) !important;
+}
+
 .mat-form-field-appearance-fill .mat-form-field-flex,
 .mat-form-field-appearance-fill .mat-form-field-flex:hover {
   background-color: var(--mainWhite);
