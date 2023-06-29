@@ -679,12 +679,14 @@ bt-order-summary {
   letter-spacing: 0.1px !important;
 }
 
+/* Payment Page */
+
 .mat-select-arrow {
   color: var(--mainBlack) !important;
 }
 
 .mat-form-field-label {
-  color: var(--mainWhite);
+  color: var(--mainBlack);
 }
 
 .mat-form-field-label .mat-placeholder-required {
