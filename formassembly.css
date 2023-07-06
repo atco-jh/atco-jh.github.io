@@ -34,7 +34,7 @@ h4 {
   font-weight: 500 !important;
   font-size: 24px !important;
   line-height: 32px !important;
-  color: var(--mainBlack) !important;
+  color: var(--lightGreen) !important;
 }
 
 a {
@@ -42,7 +42,7 @@ a {
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 20px !important;
-  color: var(--tertiaryGreen) !important;
+  color: var(--backgroundGreen) !important;
 }
 
 span {
@@ -51,7 +51,7 @@ span {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: var(--mainBlack);
+  color: var(--mainWhite);
 }
 
 label {
@@ -146,38 +146,38 @@ label {
 /* Text Input */
 .wFormContainer .wForm .inputWrapper input[type="text"],
 .wFormContainer .wForm .inputWrapper input[type="password"] {
-  background-color: var(--secondaryGreen) !important;
-  color: var(--mainWhite);
+  background-color: var(--mainWhite) !important;
+  color: var(--mainBlack);
   border-radius: 4px 4px 0px 0px;
   width: 389px;
   height: 56px;
   margin: 12px 0px;
   border: none !important;
-  border-bottom: 1px solid var(--tertiaryGreen) !important;
+  border-bottom: 1px solid var(--mobileMenuNav) !important;
 }
 
 .wFormContainer .wForm .inputWrapper input[type="text"]:focus,
 .wFormContainer .wForm .inputWrapper input[type="password"]:focus {
-  background-color: var(--mainGreen) !important;
-  color: var(--mainWhite);
+  background-color: var(--mainWhite) !important;
+  color: var(--mainBlack);
   border-radius: 4px 4px 0px 0px;
   width: 389px;
   height: 56px;
   margin: 12px 0px;
   border: none !important;
-  border-bottom: 2px solid var(--lightGreen) !important;
+  border-bottom: 2px solid var(--mobileMenuNav) !important;
 }
 
 .wFormContainer .wForm .inputWrapper input[type="text"]:hover,
 .wFormContainer .wForm .inputWrapper input[type="password"]:hover {
-  background-color: var(--mainGreen) !important;
-  color: var(--mainWhite);
+  background-color: var(--mainWhite) !important;
+  color: var(--mainBlack);
   border-radius: 4px 4px 0px 0px;
   width: 389px;
   height: 56px;
   margin: 12px 0px;
   border: none !important;
-  border-bottom: 1px solid var(--tertiaryGreen) !important;
+  border-bottom: 1px solid var(--mobileMenuNav) !important;
 }
 
 .wFormContainer .wForm .inputWrapper input[type="text"]:disabled,
@@ -223,7 +223,7 @@ label {
 
 /* Select Option */
 .wFormContainer .wForm .inputWrapper select {
-  background-color: var(--secondaryGreen) !important;
+  background-color: var(--mainWhite) !important;
   color: var(--mainWhite);
   border-radius: 4px 4px 0px 0px;
   max-width: 348px;
@@ -295,13 +295,13 @@ select[multiple]:focus option:checked {
 .wFormContainer .wfPagingButtons .wfPageNextButton:hover,
 .wFormContainer .actions .primaryAction,
 .wFormContainer .actions .primaryAction:hover {
-  background: var(--backgroundGreen);
+  background: var(--lightGreen);
   border-radius: 100px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
-  color: var(--mainWhite);
+  color: var(--inputGreen);
   padding: 14px 24px;
   height: 48px;
 }
@@ -310,12 +310,12 @@ select[multiple]:focus option:checked {
 .wFormContainer .wfPagingButtons .wfPagePreviousButton:hover {
   background: none;
   border-radius: 100px;
-  border: 1px solid var(--backgroundGreen);
+  border: 1px solid var(--tertiaryGreen);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
-  color: var(--backgroundGreen);
+  color: var(--tertiaryGreen);
   padding: 14px 24px;
   height: 48px;
 }
