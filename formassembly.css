@@ -37,7 +37,8 @@ h4 {
   color: var(--mainBlack) !important;
 }
 
-.supportInfo a {
+.supportInfo a,
+.duplicateSpan a {
   font-style: normal !important;
   font-weight: 700 !important;
   font-size: 14px !important;
@@ -134,7 +135,7 @@ label {
 
 /* Search Box */
 .wForm .fa-search.tt-search {
-  color: var(--lightGreen) !important;
+  color: var(--mainBlack) !important;
   width: 18px;
   height: 18px;
 }
@@ -310,12 +311,12 @@ select[multiple]:focus option:checked {
 .wFormContainer .wfPagingButtons .wfPagePreviousButton:hover {
   background: none;
   border-radius: 100px;
-  border: 1px solid var(--tertiaryGreen);
+  border: 1px solid var(--backgroundGreen);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
-  color: var(--tertiaryGreen);
+  color: var(--backgroundGreen);
   padding: 14px 24px;
   height: 48px;
 }
