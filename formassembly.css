@@ -59,7 +59,7 @@ label {
   font-weight: 400 !important;
   font-size: 16px !important;
   line-height: 22px !important;
-  color: var(--mainWhite) !important;
+  color: var(--mainBlack) !important;
 }
 
 /* Scrollbar customization */
@@ -86,11 +86,11 @@ label {
 
 .wFormWebPage,
 .wFormContainer {
-  background-color: var(--inputGreen);
+  background-color: var(--mainWhite);
 }
 
 .wFormContainer .wForm {
-  background-color: var(--inputGreen);
+  background-color: var(--mainGrey);
 }
 
 /* Page Numbers */
