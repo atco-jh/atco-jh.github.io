@@ -1,3 +1,31 @@
+:root {
+  --backgroundOverview: #002725;
+  --backgroundGreen: #00817b;
+  --inputGreen: #00403d;
+  --mainWhite: #ffffff;
+  --mainGrey: #eff1f0;
+  --mainBlack: #000000;
+  --mainGreen: #005a56;
+  --secondaryGrey: #e5f2f2;
+  --secondaryGreen: #006e69;
+  --tertiaryGreen: #80c0bd;
+  --tertiaryGrey: #e0e3e2;
+  --lightGreen: #bddedd;
+  --stepLabel: #b2b2b2;
+  --stepperGrey: #757877;
+  --dividerGrey: #c4c7c6;
+  --headerGreen: #4ca7a3;
+  --errorColor: #c3003b !important;
+  --starRed: #c3003b;
+  --stepperGreen: #339a95;
+  --cartIcon: #2e3130;
+  --mobileMenuNav: #5c5f5e;
+  --mobileMenuWhite: #f2f9f8;
+  --alertColor: #333333;
+  --timeGrey: #454747;
+  --outlineGrey: #a9acab;
+}
+
 h1,
 h2,
 h3,
@@ -6,7 +34,7 @@ h4 {
   font-weight: 500 !important;
   font-size: 24px !important;
   line-height: 32px !important;
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
 }
 
 a {
@@ -14,7 +42,7 @@ a {
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 20px !important;
-  color: #80c0bd !important;
+  color: var(--tertiaryGreen) !important;
 }
 
 span {
@@ -23,7 +51,7 @@ span {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: #ffffff;
+  color: var(--mainWhite);
 }
 
 label {
@@ -31,7 +59,7 @@ label {
   font-weight: 400 !important;
   font-size: 16px !important;
   line-height: 22px !important;
-  color: #ffffff !important;
+  color: var(--mainWhite) !important;
 }
 
 /* Scrollbar customization */
@@ -44,7 +72,7 @@ label {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #339a95;
+  background: var(--stepperGreen);
   border-radius: 200px;
 }
 
@@ -53,16 +81,16 @@ label {
   font-weight: 700 !important;
   font-size: 16px !important;
   line-height: 22px !important;
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
 }
 
 .wFormWebPage,
 .wFormContainer {
-  background-color: #00403d;
+  background-color: var(--inputGreen);
 }
 
 .wFormContainer .wForm {
-  background-color: #00403d;
+  background-color: var(--inputGreen);
 }
 
 /* Page Numbers */
@@ -74,10 +102,10 @@ label {
   line-height: 22px;
   border-radius: 24px;
   border: 0px solid black;
-  background: #005a56;
+  background: var(--mainGreen);
   width: 32px;
   height: 32px;
-  color: #bddedd;
+  color: var(--lightGreen);
   box-sizing: border-box;
 }
 
@@ -88,25 +116,25 @@ label {
   line-height: 22px;
   border-radius: 24px;
   border: 0px solid black;
-  background: #00817b;
+  background: var(--backgroundGreen);
   width: 32px;
   height: 32px;
-  color: #bddedd;
+  color: var(--lightGreen);
   box-sizing: border-box;
 }
 
 .wFormContainer .wfTab.wfTabCurrentPage {
-  border: 1px solid #80c0bd;
+  border: 1px solid var(--tertiaryGreen);
   border-radius: 24px;
-  background: #00817b;
+  background: var(--backgroundGreen);
   width: 32px;
   height: 32px;
-  color: #ffffff;
+  color: var(--mainWhite);
 }
 
 /* Search Box */
 .wForm .fa-search.tt-search {
-  color: #bddedd !important;
+  color: var(--lightGreen) !important;
   width: 18px;
   height: 18px;
 }
@@ -118,50 +146,50 @@ label {
 /* Text Input */
 .wFormContainer .wForm .inputWrapper input[type="text"],
 .wFormContainer .wForm .inputWrapper input[type="password"] {
-  background-color: #006e69 !important;
-  color: #ffffff;
+  background-color: var(--secondaryGreen) !important;
+  color: var(--mainWhite);
   border-radius: 4px 4px 0px 0px;
   width: 389px;
   height: 56px;
   margin: 12px 0px;
   border: none !important;
-  border-bottom: 1px solid #80c0bd !important;
+  border-bottom: 1px solid var(--tertiaryGreen) !important;
 }
 
 .wFormContainer .wForm .inputWrapper input[type="text"]:focus,
 .wFormContainer .wForm .inputWrapper input[type="password"]:focus {
-  background-color: #005a56 !important;
-  color: #ffffff;
+  background-color: var(--mainGreen) !important;
+  color: var(--mainWhite);
   border-radius: 4px 4px 0px 0px;
   width: 389px;
   height: 56px;
   margin: 12px 0px;
   border: none !important;
-  border-bottom: 2px solid #bddedd !important;
+  border-bottom: 2px solid var(--lightGreen) !important;
 }
 
 .wFormContainer .wForm .inputWrapper input[type="text"]:hover,
 .wFormContainer .wForm .inputWrapper input[type="password"]:hover {
-  background-color: #005a56 !important;
-  color: #ffffff;
+  background-color: var(--mainGreen) !important;
+  color: var(--mainWhite);
   border-radius: 4px 4px 0px 0px;
   width: 389px;
   height: 56px;
   margin: 12px 0px;
   border: none !important;
-  border-bottom: 1px solid #80c0bd !important;
+  border-bottom: 1px solid var(--tertiaryGreen) !important;
 }
 
 .wFormContainer .wForm .inputWrapper input[type="text"]:disabled,
 .wFormContainer .wForm .inputWrapper input[type="password"]:disabled {
-  background-color: #006e69 !important;
-  color: #ffffff;
+  background-color: var(--secondaryGreen) !important;
+  color: var(--mainWhite);
   border-radius: 4px 4px 0px 0px;
   width: 389px;
   height: 56px;
   margin: 12px 0px;
   border: none !important;
-  border-bottom: 1px solid #80c0bd !important;
+  border-bottom: 1px solid var(--tertiaryGreen) !important;
 }
 
 .wFormContainer
@@ -169,34 +197,34 @@ label {
   .inputWrapper
   input:not([type="file"]):not(.tt-hint):read-only,
 .wFormContainer .wForm .inputWrapper textarea:read-only {
-  background-color: #006e69 !important;
-  color: #ffffff !important;
+  background-color: var(--secondaryGreen) !important;
+  color: var(--mainWhite) !important;
   border-radius: 4px 4px 0px 0px;
   width: 389px;
   height: 56px;
   margin: 12px 0px;
   border: none !important;
-  border-bottom: 1px solid #80c0bd !important;
+  border-bottom: 1px solid var(--tertiaryGreen) !important;
 }
 
 .wFormContainer
   .wForm
   .inputWrapper
   input:not([type="file"]):not(.tt-hint):read-only[type="radio"] {
-  background-color: #006e69 !important;
-  color: #ffffff !important;
+  background-color: var(--secondaryGreen) !important;
+  color: var(--mainWhite) !important;
   border-radius: 4px 4px 0px 0px;
   width: 10px;
   height: 10px;
   margin: 12px 0px;
   border: none !important;
-  border-bottom: 1px solid #80c0bd !important;
+  border-bottom: 1px solid var(--tertiaryGreen) !important;
 }
 
 /* Select Option */
 .wFormContainer .wForm .inputWrapper select {
-  background-color: #006e69 !important;
-  color: #ffffff;
+  background-color: var(--secondaryGreen) !important;
+  color: var(--mainWhite);
   border-radius: 4px 4px 0px 0px;
   max-width: 348px;
   height: 56px !important;
@@ -205,19 +233,19 @@ label {
 }
 
 .wFormContainer .wForm .inputWrapper select[multiple] {
-  background-color: #006e69 !important;
-  color: #ffffff;
+  background-color: var(--secondaryGreen) !important;
+  color: var(--mainWhite);
   border-radius: 4px 4px 0px 0px;
   max-width: 348px;
   height: 240px !important;
   margin: 12px 0px;
   border: none !important;
-  scrollbar-color: #339a95 rgba(0, 0, 0, 0); /* Firefox only*/
+  scrollbar-color: var(--stepperGreen) rgba(0, 0, 0, 0); /* Firefox only*/
 }
 
 .wFormContainer .wForm .inputWrapper select[multiple] > option {
-  background-color: #005a56 !important;
-  color: #ffffff;
+  background-color: var(--mainGreen) !important;
+  color: var(--mainWhite);
   max-width: 100%;
   height: 52px !important;
   border: none !important;
@@ -234,30 +262,31 @@ label {
 }
 
 select[multiple]:focus option:checked {
-  background: #339a95 linear-gradient(0deg, #339a95 0%, #339a95 100%);
+  background: var(--stepperGreen)
+    linear-gradient(0deg, var(--stepperGreen) 0%, var(--stepperGreen) 100%);
   color: white !important;
 }
 
 .wFormContainer .wForm .inputWrapper textarea {
-  background-color: #006e69 !important;
-  color: #ffffff;
+  background-color: var(--secondaryGreen) !important;
+  color: var(--mainWhite);
   border-radius: 4px 4px 0px 0px;
   width: 437px;
   height: 120px;
   margin: 12px 0px;
   border: none !important;
-  border-bottom: 1px solid #80c0bd !important;
+  border-bottom: 1px solid var(--tertiaryGreen) !important;
   font-size: 16px;
   line-height: 22px;
 }
 
 .wFormContainer .wForm .inputWrapper input[type="text"]:focus {
-  color: #ffffff;
+  color: var(--mainWhite);
   border: "none" !important;
 }
 
 .wFormContainer fieldset {
-  border: 1px solid #80c0bd !important;
+  border: 1px solid var(--tertiaryGreen) !important;
   border-radius: 15px;
 }
 
@@ -266,13 +295,13 @@ select[multiple]:focus option:checked {
 .wFormContainer .wfPagingButtons .wfPageNextButton:hover,
 .wFormContainer .actions .primaryAction,
 .wFormContainer .actions .primaryAction:hover {
-  background: #bddedd;
+  background: var(--lightGreen);
   border-radius: 100px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
-  color: #00403d;
+  color: var(--inputGreen);
   padding: 14px 24px;
   height: 48px;
 }
@@ -281,12 +310,12 @@ select[multiple]:focus option:checked {
 .wFormContainer .wfPagingButtons .wfPagePreviousButton:hover {
   background: none;
   border-radius: 100px;
-  border: 1px solid #80c0bd;
+  border: 1px solid var(--tertiaryGreen);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
-  color: #80c0bd;
+  color: var(--tertiaryGreen);
   padding: 14px 24px;
   height: 48px;
 }
