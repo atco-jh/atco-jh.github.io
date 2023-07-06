@@ -148,7 +148,7 @@ label {
 .wFormContainer .wForm .inputWrapper input[type="text"],
 .wFormContainer .wForm .inputWrapper input[type="password"] {
   background-color: var(--mainWhite) !important;
-  color: var(--mainBlack);
+  color: var(--mainBlack) !important;
   border-radius: 4px 4px 0px 0px;
   width: 389px;
   height: 56px;
