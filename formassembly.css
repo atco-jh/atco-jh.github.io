@@ -224,7 +224,7 @@ label {
 /* Select Option */
 .wFormContainer .wForm .inputWrapper select {
   background-color: var(--mainWhite) !important;
-  color: var(--mainWhite);
+  color: var(--mainBlack);
   border-radius: 4px 4px 0px 0px;
   max-width: 348px;
   height: 56px !important;
@@ -233,19 +233,19 @@ label {
 }
 
 .wFormContainer .wForm .inputWrapper select[multiple] {
-  background-color: var(--secondaryGreen) !important;
-  color: var(--mainWhite);
+  background-color: var(--mainWhite) !important;
+  color: var(--mainBlack);
   border-radius: 4px 4px 0px 0px;
   max-width: 348px;
   height: 240px !important;
   margin: 12px 0px;
   border: none !important;
-  scrollbar-color: var(--stepperGreen) rgba(0, 0, 0, 0); /* Firefox only*/
+  scrollbar-color: var(--backgroundGreen) rgba(0, 0, 0, 0); /* Firefox only*/
 }
 
 .wFormContainer .wForm .inputWrapper select[multiple] > option {
-  background-color: var(--mainGreen) !important;
-  color: var(--mainWhite);
+  background-color: var(--mainWhite) !important;
+  color: var(--mainBlack);
   max-width: 100%;
   height: 52px !important;
   border: none !important;
