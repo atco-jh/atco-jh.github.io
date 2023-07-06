@@ -37,7 +37,7 @@ h4 {
   color: var(--mainBlack) !important;
 }
 
-a {
+.supportInfo a {
   font-style: normal !important;
   font-weight: 700 !important;
   font-size: 14px !important;
@@ -102,10 +102,10 @@ label {
   line-height: 22px;
   border-radius: 24px;
   border: 0px solid black;
-  background: var(--mainGreen);
+  background: var(--backgroundGreen);
   width: 32px;
   height: 32px;
-  color: var(--lightGreen);
+  color: var(--mainWhite);
   box-sizing: border-box;
 }
 
@@ -119,7 +119,7 @@ label {
   background: var(--backgroundGreen);
   width: 32px;
   height: 32px;
-  color: var(--lightGreen);
+  color: var(--mainWhite);
   box-sizing: border-box;
 }
 
