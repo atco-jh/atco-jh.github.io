@@ -34,7 +34,7 @@ h4 {
   font-weight: 500 !important;
   font-size: 24px !important;
   line-height: 32px !important;
-  color: var(--lightGreen) !important;
+  color: var(--mainBlack) !important;
 }
 
 a {
@@ -51,7 +51,7 @@ span {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: var(--mainWhite);
+  color: var(--mainBlack);
 }
 
 label {
@@ -197,14 +197,14 @@ label {
   .inputWrapper
   input:not([type="file"]):not(.tt-hint):read-only,
 .wFormContainer .wForm .inputWrapper textarea:read-only {
-  background-color: var(--secondaryGreen) !important;
-  color: var(--mainWhite) !important;
+  background-color: var(--mainWhite) !important;
+  color: var(--mainBlack) !important;
   border-radius: 4px 4px 0px 0px;
   width: 389px;
   height: 56px;
   margin: 12px 0px;
   border: none !important;
-  border-bottom: 1px solid var(--tertiaryGreen) !important;
+  border-bottom: 1px solid var(--mobileMenuNav) !important;
 }
 
 .wFormContainer
