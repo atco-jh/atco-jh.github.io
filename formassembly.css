@@ -82,7 +82,7 @@ label {
   font-weight: 700 !important;
   font-size: 16px !important;
   line-height: 22px !important;
-  color: var(--lightGreen) !important;
+  color: var(--backgroundGreen) !important;
 }
 
 .wFormWebPage,
@@ -183,14 +183,14 @@ label {
 
 .wFormContainer .wForm .inputWrapper input[type="text"]:disabled,
 .wFormContainer .wForm .inputWrapper input[type="password"]:disabled {
-  background-color: var(--secondaryGreen) !important;
-  color: var(--mainWhite);
+  background-color: var(--mainWhite) !important;
+  color: var(--mainBlack);
   border-radius: 4px 4px 0px 0px;
   width: 389px;
   height: 56px;
   margin: 12px 0px;
   border: none !important;
-  border-bottom: 1px solid var(--tertiaryGreen) !important;
+  border-bottom: 1px solid var(--mobileMenuNav) !important;
 }
 
 .wFormContainer
@@ -263,9 +263,13 @@ label {
 }
 
 select[multiple]:focus option:checked {
-  background: var(--stepperGreen)
-    linear-gradient(0deg, var(--stepperGreen) 0%, var(--stepperGreen) 100%);
-  color: white !important;
+  background: var(--backgroundGreen)
+    linear-gradient(
+      0deg,
+      var(--backgroundGreen) 0%,
+      var(--backgroundGreen) 100%
+    );
+  color: var(--mainWhite) !important;
 }
 
 .wFormContainer .wForm .inputWrapper textarea {
@@ -287,7 +291,7 @@ select[multiple]:focus option:checked {
 }
 
 .wFormContainer fieldset {
-  border: 1px solid var(--tertiaryGreen) !important;
+  border: 1px solid var(--backgroundGreen) !important;
   border-radius: 15px;
 }
 
