@@ -222,6 +222,13 @@ label {
   border-bottom: 1px solid var(--mobileMenuNav) !important;
 }
 
+.wFormContainer
+  .wForm
+  .inputWrapper
+  input:not([type="file"]):not(.tt-hint):read-only[type="checkbox"] {
+  width: 12px;
+  height: 10px;
+}
 /* Select Option */
 .wFormContainer .wForm .inputWrapper select {
   background-color: var(--mainWhite) !important;
