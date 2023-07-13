@@ -702,6 +702,10 @@ bt-order-summary {
   letter-spacing: 0.1px !important;
 }
 
+.event-detail-block .session-title {
+  font-weight: 600 !important;
+}
+
 /* Payment Page */
 
 .mat-select-arrow {
