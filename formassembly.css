@@ -270,7 +270,7 @@ label {
 }
 
 .wFormContainer .wForm .inputWrapper select[multiple] > option:checked {
-  background-color: var(--backgroundGreen);
+  background-color: var(--backgroundGreen) !important;
 }
 
 select[multiple]:focus option:checked {
