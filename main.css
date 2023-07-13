@@ -133,6 +133,15 @@ main .session-name {
   color: var(--mainWhite) !important;
 }
 
+bt-event-custom-tab .bt-card {
+  background-color: var(--mainGreen) !important;
+}
+
+bt-event-custom-tab .bt-card bt-rich-text p,
+bt-event-custom-tab .bt-card bt-rich-text strong {
+  color: var(--mainWhite) !important;
+}
+
 /* CHECKOUT PAGES */
 
 body:has(bt-order-summary) {
