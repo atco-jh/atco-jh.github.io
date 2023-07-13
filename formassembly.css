@@ -301,6 +301,15 @@ select[multiple]:focus option:checked {
   border: "none" !important;
 }
 
+/*Dropdown selectors*/
+/* .twitter-typeahead input[type="text"]  {
+  font-size: 20px !important;
+}
+
+.tt-menu .tt-suggestion.tt-selectable{
+  font-size: 20px !important;
+} */
+
 .wFormContainer fieldset {
   border: 1px solid var(--backgroundGreen) !important;
   border-radius: 15px;
