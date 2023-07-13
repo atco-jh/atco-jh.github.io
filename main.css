@@ -676,6 +676,7 @@ i.search-icon {
 
 bt-order-summary {
   position: fixed;
+  width: 372px;
 }
 
 .session-title,
