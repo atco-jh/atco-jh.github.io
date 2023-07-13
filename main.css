@@ -50,9 +50,15 @@ i {
 /* -- Desktop -- */
 /*OVERVIEW PAGES*/
 
+main .session-name {
+  line-height: 3rem !important;
+}
+
 .bt-card.description,
 #date-and-time .bt-card,
-#location .bt-card {
+#location .bt-card,
+.date-and-time .bt-card,
+.location .bt-card {
   background-color: var(--mainGreen) !important;
 }
 
@@ -61,7 +67,9 @@ i {
 }
 
 #date-and-time .bt-card-header,
-#location .bt-card-header {
+#location .bt-card-header,
+.date-and-time.card .bt-card-header,
+.location.card .bt-card-header {
   background-color: var(--mainGreen) !important;
   color: var(--secondaryGrey) !important;
   font-style: normal !important;
@@ -73,7 +81,8 @@ i {
   border-bottom: 1px solid var(--headerGreen);
 }
 
-#date-and-time .card-wrapper .card-header {
+#date-and-time .card-wrapper .card-header,
+.date-and-time .card-wrapper .card-header {
   color: var(--secondaryGrey) !important;
   border-bottom: 1px solid var(--headerGreen) !important;
   font-weight: 700 !important;
