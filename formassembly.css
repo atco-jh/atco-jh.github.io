@@ -302,10 +302,11 @@ select[multiple]:focus option:checked {
 }
 
 /*Dropdown selectors*/
-/* .twitter-typeahead input[type="text"]  {
+.twitter-typeahead input[type="text"] {
   font-size: 20px !important;
 }
 
+/* 
 .tt-menu .tt-suggestion.tt-selectable{
   font-size: 20px !important;
 } */
