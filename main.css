@@ -50,7 +50,7 @@ i {
 /* -- Desktop -- */
 /*OVERVIEW PAGES*/
 
-main .session-name {
+bt-event-session-detail main .session-name {
   line-height: 3rem !important;
 }
 
@@ -63,7 +63,8 @@ main .session-name {
   background-color: var(--mainGreen) !important;
 }
 
-.bt-card.description strong {
+.bt-card.description strong,
+.about .bt-card p {
   color: var(--mainWhite) !important;
 }
 
