@@ -58,7 +58,8 @@ main .session-name {
 #date-and-time .bt-card,
 #location .bt-card,
 .date-and-time .bt-card,
-.location .bt-card {
+.location .bt-card,
+.about .bt-card {
   background-color: var(--mainGreen) !important;
 }
 
@@ -69,7 +70,8 @@ main .session-name {
 #date-and-time .bt-card-header,
 #location .bt-card-header,
 .date-and-time.card .bt-card-header,
-.location.card .bt-card-header {
+.location.card .bt-card-header,
+.about .bt-card .bt-card-header {
   background-color: var(--mainGreen) !important;
   color: var(--secondaryGrey) !important;
   font-style: normal !important;
