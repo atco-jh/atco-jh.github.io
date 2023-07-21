@@ -226,9 +226,15 @@ label {
   .wForm
   .inputWrapper
   input:not([type="file"]):not(.tt-hint):read-only[type="checkbox"] {
-  width: 12px;
-  height: 10px;
+  width: 16px;
+  height: 16px;
 }
+
+.wForm form .oneChoice label,
+.wForm form .oneChoice .label {
+  display: grid;
+}
+
 /* Select Option */
 .wFormContainer .wForm .inputWrapper select {
   background-color: var(--mainWhite) !important;
