@@ -1,34 +1,20 @@
 <html>
 <head>
-<script src="xdLocalStorage.min.js"></script>
-</head>
 <script type="text/javascript">
-    window.onload = function () {
-        // must call init function
-        xdLocalStorageEmbedded.init("sub.domain.com");
-    };
-</script>
-<!-- <script type="text/javascript">
-    // window.onload = function () {
-    //         // Get the window displayed in the iframe.
-    //         var receiver = document.getElementById('receiver').contentWindow;
-    //         receiver.postMessage('Hello Treehouse!', 'http://demos.matt-west.com');
-    //     }
-
-    window.onload = function () {
-            console.log("SENDER")
-            var receiver = document.getElementById('receiver').contentWindow;
-                receiver.postMessage('message', 'https://rumi-poc.webflow.io/');
-  
-
-
+    window.addEventListener("load", function () {
+        var receiver = document.getElementById('receiver').contentWindow;
+        const data = {
+            name: "Test Name 1"
         }
-        
-</script> -->
+        receiver.postMessage(JSON.stringify(data), "*");
+    })
 
 
-<!-- <iframe id="receiver" style="display: none;" src="https://rumi-poc.webflow.io/" width="500" height="200">
-</iframe> -->
+</script>
+</head>
+
+<iframe id="receiver" style="display: none;" src="https://rumi-poc.webflow.io/" width="500" height="200">
+</iframe>
 
 
 
