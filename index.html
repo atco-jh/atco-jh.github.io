@@ -1,8 +1,14 @@
 <html>
 <head>
-
+<script src="xdLocalStorage.min.js"></script>
 </head>
 <script type="text/javascript">
+    window.onload = function () {
+        // must call init function
+        xdLocalStorageEmbedded.init("sub.domain.com");
+    };
+</script>
+<!-- <script type="text/javascript">
     // window.onload = function () {
     //         // Get the window displayed in the iframe.
     //         var receiver = document.getElementById('receiver').contentWindow;
@@ -18,11 +24,11 @@
 
         }
         
-</script>
+</script> -->
 
 
-<iframe id="receiver" style="display: none;" src="https://rumi-poc.webflow.io/" width="500" height="200">
-</iframe>
+<!-- <iframe id="receiver" style="display: none;" src="https://rumi-poc.webflow.io/" width="500" height="200">
+</iframe> -->
 
 
 
