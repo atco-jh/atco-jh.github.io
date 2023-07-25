@@ -11,17 +11,12 @@
 
     window.onload = function () {
             // Get the window displayed in the iframe.
+            console.log("ON LOAD WINDOW SENDER")
             var receiver = document.getElementById('receiver').contentWindow;
 
-            // A function to handle sending messages.
-            function sendMessage(e) {
 
-                // Send a message with the text 'Hello Treehouse!' to the receiver window.
                 receiver.postMessage('Hello Treehouse!', 'https://rumi-poc.webflow.io/');
-            }
-
-
-            btn.addEventListener('click', sendMessage);
+                   console.log("Message Sent")
         }
         
 </script>
