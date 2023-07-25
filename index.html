@@ -3,6 +3,11 @@
 
 </head>
 <script type="application/javascript">
+    // window.onload = function () {
+    //         // Get the window displayed in the iframe.
+    //         var receiver = document.getElementById('receiver').contentWindow;
+    //         receiver.postMessage('Hello Treehouse!', 'http://demos.matt-west.com');
+    //     }
     window.onload = function () {
         var win = document.getElementsByTagName('iframe')[0].contentWindow;
         var obj = {
@@ -10,12 +15,12 @@
         };
         win.postMessage(JSON.stringify({ key: 'storage', data: obj }), "*");
     };
-
         
 </script>
 
 
-<a href="https://rumi-poc.webflow.io/"></a>
+<iframe id="receiver" src="https://rumi-poc.webflow.io/" width="500" height="200">
+</iframe>
 
 
 
