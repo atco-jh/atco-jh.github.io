@@ -1,4 +1,23 @@
 <html>
-<head></head>
+<head>
+
+</head>
+<script type="application/javascript">
+    window.onload = function () {
+        var win = document.getElementsByTagName('iframe')[0].contentWindow;
+        var obj = {
+            name: "Jack"
+        };
+        win.postMessage(JSON.stringify({ key: 'storage', data: obj }), "*");
+    };
+
+        
+</script>
+
+
+<a href="https://rumi-poc.webflow.io/"></a>
+
+
+
 <h1>Hello World</h1>
 </html>
