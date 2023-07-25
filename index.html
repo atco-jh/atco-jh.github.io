@@ -9,7 +9,7 @@
     //         receiver.postMessage('Hello Treehouse!', 'http://demos.matt-west.com');
     //     }
     window.onload = function () {
-        var win = document.getElementsByTagName('iframe')[0].contentWindow;
+       var win = document.getElementById('receiver').contentWindow;
         var obj = {
             name: "Jack"
         };
