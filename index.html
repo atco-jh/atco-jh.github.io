@@ -2,14 +2,16 @@
 <head>
 
 </head>
-<script type="application/javascript">
+<script type="text/javascript">
     // window.onload = function () {
     //         // Get the window displayed in the iframe.
     //         var receiver = document.getElementById('receiver').contentWindow;
     //         receiver.postMessage('Hello Treehouse!', 'http://demos.matt-west.com');
     //     }
     window.onload = function () {
+        console.log("LOADING")
        var win = document.getElementById('receiver').contentWindow;
+            console.log("window", win)
         var obj = {
             name: "Jack"
         };
