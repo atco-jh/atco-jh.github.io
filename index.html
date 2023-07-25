@@ -17,6 +17,13 @@
 
                 receiver.postMessage('Hello Treehouse!', 'https://rumi-poc.webflow.io/');
                    console.log("Message Sent")
+
+
+
+    window.addEventListener('message', function (e) {
+        console.log("Message handler")
+            var message = e.data;
+        });
         }
         
 </script>
