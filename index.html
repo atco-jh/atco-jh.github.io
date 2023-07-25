@@ -8,15 +8,21 @@
     //         var receiver = document.getElementById('receiver').contentWindow;
     //         receiver.postMessage('Hello Treehouse!', 'http://demos.matt-west.com');
     //     }
+
     window.onload = function () {
-                 console.log("window", win)
-       var win = document.getElementById('receiver').contentWindow;
-   
-        var obj = {
-            name: "Jack"
-        };
-        win.postMessage(JSON.stringify({ key: 'storage', data: obj }), "*");
-    };
+            // Get the window displayed in the iframe.
+            var receiver = document.getElementById('receiver').contentWindow;
+
+            // A function to handle sending messages.
+            function sendMessage(e) {
+
+                // Send a message with the text 'Hello Treehouse!' to the receiver window.
+                receiver.postMessage('Hello Treehouse!', 'https://rumi-poc.webflow.io/');
+            }
+
+
+            btn.addEventListener('click', sendMessage);
+        }
         
 </script>
 
